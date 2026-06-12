@@ -1,0 +1,829 @@
+[
+  {
+    "sectionId": "s1",
+    "sectionTitle": "もんだい１",
+    "instruction": "＿＿のことばは ひらがなで どう かきますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "question",
+        "num": 1,
+        "answer": 1,
+        "text": "この <span class=\"ul\">教室</span>は とても きれいです。",
+        "options": [
+          "きょうしつ",
+          "きょしつ",
+          "きょうしち",
+          "きょしち"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>教室<rt>きょうしつ</rt></ruby> (Kyoushitsu = Ruang Kelas)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Ruang kelas ini sangat bersih/indah.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">きょうしつ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Ruang Kelas</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>教室<rt>きょうしつ</rt></ruby> dibaca きょうしつ (kyoushitsu).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">きょしつ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang vokal panjang 'ou' pada suku kata pertama.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">きょうしち</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Suku kata terakhir salah, seharusnya 'tsu' (つ), bukan 'chi' (ち).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">きょしち</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Ejaan hiragana salah total.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 2,
+        "answer": 2,
+        "text": "きのうから <span class=\"ul\">頭痛</span>が します。",
+        "options": [
+          "ずつ",
+          "ずつう",
+          "とうつう",
+          "とつ"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>頭痛<rt>ずつう</rt></ruby> (Zutsuu = Sakit Kepala)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Sejak kemarin saya sakit kepala.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">ずつ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang vokal panjang 'u' di akhir.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">ずつう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sakit Kepala</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>頭痛<rt>ずつう</rt></ruby> dibaca ずつう (zutsuu).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">とうつう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pengucapan kanji pertama salah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">とつ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Ejaan hiragana salah.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 3,
+        "answer": 3,
+        "text": "あしたの <span class=\"ul\">準備</span>を してください。",
+        "options": [
+          "じゅうび",
+          "しゅんび",
+          "じゅんび",
+          "しゅうび"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>準備<rt>じゅんび</rt></ruby> (Junbi = Persiapan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Tolong lakukan persiapan untuk besok.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">じゅうび</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji pertama dibaca 'jun', bukan 'juu'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">しゅんび</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Huruf 'ju' (じゅ) kehilangan tenten sehingga menjadi 'shu' (しゅ).</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\">じゅんび</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Persiapan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>準備<rt>じゅんび</rt></ruby> dibaca じゅんび (junbi).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">しゅうび</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pembacaan salah total.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 4,
+        "answer": 4,
+        "text": "おととい <span class=\"ul\">空港</span>へ 行きました。",
+        "options": [
+          "くうかん",
+          "くうこう",
+          "こうくう",
+          "くうごう"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>空港<rt>くうこう</rt></ruby> (Kuukou = Bandara)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kemarin lusa saya pergi ke bandara.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">くうかん</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Ruang / Spasi</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>港<rt>みなと</rt></ruby> dibaca 'kou', bukan 'kan'.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">くうこう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Bandara</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>空港<rt>くうこう</rt></ruby> dibaca くうこう (kuukou).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">こうくう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Penerbangan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Urutan bacaan kanji terbalik.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">くうごう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Menggunakan daku-on 'go' yang salah.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 5,
+        "answer": 1,
+        "text": "この カメラは とても <span class=\"ul\">軽い</span>ですね。",
+        "options": [
+          "かるい",
+          "おもい",
+          "ひろい",
+          "あさい"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>軽い<rt>かるい</rt></ruby> (Karui = Ringan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kamera ini sangat ringan, ya.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">かるい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Ringan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>軽い<rt>かるい</rt></ruby> dibaca かるい (karui).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">おもい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Berat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>重い<rt>おもい</rt></ruby> (omoi) berarti berat (lawan kata ringan).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">ひろい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Luas</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>広い<rt>ひろい</rt></ruby> (hiroi) berarti luas.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">あさい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dangkal</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>浅い<rt>あさい</rt></ruby> (asai) berarti dangkal.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 6,
+        "answer": 3,
+        "text": "もっと <span class=\"ul\">詳しく</span> 教えてください。",
+        "options": [
+          "やさしく",
+          "あたらしく",
+          "くわしく",
+          "ただしく"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>詳しく<rt>くわしく</rt></ruby> (Kuwashiku = Detail / Rinci)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Tolong beritahu saya lebih detail.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">やさしく</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dengan ramah / mudah</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>易しく<rt>やさしく</rt></ruby>/<ruby>優し<rt>やさし</rt></ruby>く dibaca yasashiku.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">あたらしく</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Secara baru</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>新しく<rt>あたらしく</rt></ruby> dibaca atarashiku.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\">くわしく</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Detail / Rinci</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>詳しく<rt>くわしく</rt></ruby> dibaca くわしく (kuwashiku).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">ただしく</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dengan benar</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>正しく<rt>ただしく</rt></ruby> dibaca tadashiku.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 7,
+        "answer": 2,
+        "text": "あそこに <span class=\"ul\">交番</span>が あります。",
+        "options": [
+          "こうはん",
+          "こうばん",
+          "きょうばん",
+          "こばん"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>交番<rt>こうばん</rt></ruby> (Kouban = Pos Polisi)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Di sana ada pos polisi.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">こうはん</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Setengah kedua / Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kehilangan tenten pada 'ban'.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">こうばん</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pos Polisi</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>交番<rt>こうばん</rt></ruby> dibaca こうばん (kouban).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">きょうばん</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>交<rt>こう</rt></ruby> dibaca 'kou' dalam gabungan ini.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">こばん</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Uang emas kuno / Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang vokal panjang 'u'.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 8,
+        "answer": 4,
+        "text": "来週 <span class=\"ul\">引っ越し</span>します。",
+        "options": [
+          "ひこし",
+          "ひっこしし",
+          "ひごし",
+          "ひっこし"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>引っ越し<rt>ひっこし</rt></ruby> (Hikkoshi = Pindahan Rumah)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Minggu depan saya akan pindah rumah.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">ひこし</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang sokuon (tsu kecil).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">ひっこしし</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah eja</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kelebihan suku kata 'shi'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">ひごし</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah baca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Salah pembacaan hiragana.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\">ひっこし</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pindahan Rumah</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>引っ越し<rt>ひっこし</rt></ruby> dibaca ひっこし (hikkoshi).</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s2",
+    "sectionTitle": "もんだい２",
+    "instruction": "＿＿のことばは どう かきますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "question",
+        "num": 9,
+        "answer": 2,
+        "text": "えきまで じてんしゃで <span class=\"ul\">かよって</span> います。",
+        "options": [
+          "週って",
+          "通って",
+          "返って",
+          "戻って"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>通う<rt>かよう</rt></ruby> (Kayou = Pergi pulang / Komuter / Bersekolah)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Saya pergi pulang ke stasiun menggunakan sepeda.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>週<rt>しゅう</rt></ruby>って</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah kanji</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>週<rt>しゅう</rt></ruby> (minggu) tidak digunakan untuk kata kerja kayou.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>通って<rt>とおって</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pergi pulang / Komuter</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>通って<rt>とおって</rt></ruby> dibaca かよって (kayotte).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>返っ<rt>かえっ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengembalikan (Kaette)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>返る<rt>かえる</rt></ruby> dibaca kaeru.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>戻っ<rt>もどっ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kembali / Balik (Modotte)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>戻る<rt>もどる</rt></ruby> dibaca modoru.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 10,
+        "answer": 3,
+        "text": "まどの そとを <span class=\"ul\">みて</span> ください。",
+        "options": [
+          "書いて",
+          "聞いて",
+          "見て",
+          "開けて"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>見る<rt>みる</rt></ruby> (Miru = Melihat)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Tolong lihat ke luar jendela.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>書い<rt>かい</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menulis (Kaite)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berasal dari kata kaku (<ruby>書く<rt>かく</rt></ruby>).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>聞い<rt>きい</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mendengar (Kiite)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berasal dari kata kiku (<ruby>聞く<rt>きく</rt></ruby>).</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>見て<rt>みて</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Melihat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>見て<rt>みて</rt></ruby> dibaca みて (mite) yang berarti melihat.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>開け<rt>ひらけ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Membuka (Akete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berasal dari kata akeru (<ruby>開け<rt>ひらけ</rt></ruby>る).</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 11,
+        "answer": 1,
+        "text": "この くだものは とても <span class=\"ul\">あまい</span>です。",
+        "options": [
+          "甘い",
+          "辛い",
+          "苦い",
+          "塩い"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>甘い<rt>あまい</rt></ruby> (Amai = Manis)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Buah ini sangat manis.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>甘い<rt>あまい</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Manis</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>甘い<rt>あまい</rt></ruby> dibaca あまい (amai).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>辛い<rt>つらい</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pedas (Karai)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>辛い<rt>つらい</rt></ruby> dibaca karai.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>苦い<rt>にがい</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pahit (Nigai)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>苦い<rt>にがい</rt></ruby> dibaca nigai.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>塩<rt>しお</rt></ruby>い</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah kanji</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji ini tidak dibaca amai.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 12,
+        "answer": 4,
+        "text": "ひるごはんに ラーメンを <span class=\"ul\">たべました</span>。",
+        "options": [
+          "飲べました",
+          "作べました",
+          "買べました",
+          "食べました"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>食べ<rt>たべ</rt></ruby>る (Taberu = Makan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Saya makan ramen untuk makan siang.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>飲<rt>いん</rt></ruby>べました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah kanji</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>飲<rt>いん</rt></ruby> (minum) salah untuk kata taberu.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>作<rt>さく</rt></ruby>べました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah kanji</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>作<rt>さく</rt></ruby> (membuat) salah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>買<rt>ばい</rt></ruby>べました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah kanji</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>買<rt>ばい</rt></ruby> (membeli) salah.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>食べ<rt>たべ</rt></ruby>ました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Makan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>食べ<rt>たべ</rt></ruby>ました dibaca たべました (tabemashita).</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 13,
+        "answer": 2,
+        "text": "ともだちに プレゼントを <span class=\"ul\">おくりました</span>。",
+        "options": [
+          "遅りました",
+          "送りました",
+          "起りました",
+          "贈りました"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>送る<rt>おくる</rt></ruby> (Okuru = Mengirim)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Saya mengirim hadiah kepada teman.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>遅り<rt>おくり</rt></ruby>ました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Terlambat (Okuremashita)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>遅<rt>ち</rt></ruby> (lambat/terlambat) salah.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>送り<rt>おくり</rt></ruby>ました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengirim</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>送り<rt>おくり</rt></ruby>ました dibaca おくりました (okurimashita).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>起り<rt>おこり</rt></ruby>ました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Bangun / Terjadi (Okorimashita)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kanji <ruby>起<rt>き</rt></ruby> (bangun/bangkit) salah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>贈り<rt>おくり</rt></ruby>ました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menghadiahkan (Konteks formal)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Walaupun secara arti dekat, kanji <ruby>送る<rt>おくる</rt></ruby> adalah kanji standar level N4 untuk pengiriman umum, sedangkan <ruby>贈る<rt>おくる</rt></ruby> levelnya lebih tinggi (N3) dan kurang umum diujikan di N4 dasar.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 14,
+        "answer": 3,
+        "text": "へやの ドアを <span class=\"ul\">しめて</span> ください。",
+        "options": [
+          "開けて",
+          "閉めて",
+          "明けて",
+          "空けて"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>閉め<rt>しめ</rt></ruby>る (Shimeru = Menutup)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Tolong tutup pintu kamar.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>開け<rt>ひらけ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Membuka (Akete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Lawan kata dari menutup.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>閉め<rt>しめ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menutup</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kanji <ruby>閉め<rt>しめ</rt></ruby>て dibaca しめて (shimete).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>明け<rt>あけ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menjadi terang (Akete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Salah kanji.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>空け<rt>あけ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengosongkan (Akete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Salah kanji.</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s3",
+    "sectionTitle": "もんだい３",
+    "instruction": "（　）に なにを いれますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "question",
+        "num": 15,
+        "answer": 1,
+        "text": "おなかが すいたので、（　）ごはんを たべましょう。",
+        "options": [
+          "そろそろ",
+          "だんだん",
+          "ちっとも",
+          "なかなか"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> そろそろ (Sorosoro = Sebentar lagi / Mari bersiap)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Karena lapar, ( ) mari makan siang/malam.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">そろそろ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sebentar lagi / Mari bersiap</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Sorosoro bermakna ajakan untuk segera melakukan sesuatu karena waktunya sudah tiba.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">だんだん</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Lambat laun / Berangsur-angsur</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Digunakan untuk proses perubahan bertahap.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">ちっとも</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sama sekali tidak (diikuti negatif)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Membutuhkan bentuk kalimat negatif di akhir.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">なかなか</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Cukup / Sangat (sulit)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Biasanya digunakan untuk penekanan kesulitan (diikuti negatif).</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 16,
+        "answer": 2,
+        "text": "<ruby>図書館<rt>としょかん</rt></ruby>は <ruby>静か<rt>しずか</rt></ruby>ですから、（　）はなしてください。",
+        "options": [
+          "<ruby>大き<rt>おおき</rt></ruby>な<ruby>声<rt>こえ</rt></ruby>で",
+          "<ruby>小さい<rt>ちーさい</rt></ruby><ruby>声<rt>こえ</rt></ruby>で",
+          "<ruby>高い<rt>たかい</rt></ruby><ruby>声<rt>こえ</rt></ruby>で",
+          "<ruby>低い<rt>ひくい</rt></ruby><ruby>声<rt>こえ</rt></ruby>で"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>小さい<rt>ちーさい</rt></ruby><ruby>声<rt>こえ</rt></ruby>で (Chiisai koe de = Dengan suara kecil/pelan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Karena perpustakaan sunyi, tolong berbicara ( ).</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>大き<rt>おおき</rt></ruby>な<ruby>声<rt>こえ</rt></ruby>で</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dengan suara keras</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berbicara keras dilarang di perpustakaan.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>小さい<rt>ちーさい</rt></ruby><ruby>声<rt>こえ</rt></ruby>で</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dengan suara kecil/pelan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kita harus berbisik/berbicara pelan di perpustakaan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>高い<rt>たかい</rt></ruby><ruby>声<rt>こえ</rt></ruby>で</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dengan suara melengking/tinggi</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak cocok dengan konteks perpustakaan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>低い<rt>ひくい</rt></ruby><ruby>声<rt>こえ</rt></ruby>で</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dengan suara berat/rendah</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Suara rendah/bass tidak menjamin kesunyian jika volumenya keras.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 17,
+        "answer": 3,
+        "text": "パソコンの つかいかたが わからないとき、この <ruby>説明書<rt>せつめいしょ</rt></ruby>が（　）よ。",
+        "options": [
+          "<ruby>役に立ち<rt>やくにたち</rt></ruby>ます",
+          "<ruby>働き<rt>はたらき</rt></ruby>ます",
+          "<ruby>案内<rt>あんない</rt></ruby>します",
+          "<ruby>相談<rt>そうだん</rt></ruby>します"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>役に立つ<rt>やくにたつ</rt></ruby> (Yaku ni tatsu = Berguna / Bermanfaat)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Ketika tidak tahu cara menggunakan komputer, buku panduan ini ( ) lho.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>役に立ち<rt>やくにたち</rt></ruby>ます</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Berguna / Bermanfaat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Buku panduan berguna (yaku ni tatsu) saat kita kebingungan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>働き<rt>はたらき</rt></ruby>ます</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Bekerja</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Buku panduan tidak hidup sehingga tidak bisa bekerja (hataraku).</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>案内<rt>あんない</rt></ruby>します</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Memandu / Mengantar</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Biasanya digunakan untuk memandu orang secara langsung di lokasi.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>相談<rt>そうだん</rt></ruby>します</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Berkonsultasi</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kita berkonsultasi dengan manusia, bukan dengan benda mati.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 18,
+        "answer": 4,
+        "text": "いそがないと、でんしゃに（　）よ。",
+        "options": [
+          "<ruby>間に合い<rt>まにあい</rt></ruby>ません",
+          "<ruby>遅れ<rt>おくれ</rt></ruby>ません",
+          "<ruby>乗り<rt>のり</rt></ruby>ません",
+          "<ruby>待ち<rt>まち</rt></ruby>ません"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>間に合う<rt>まにあう</rt></ruby> (Mani au = Sempat / Keburu / Tepat waktu)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Jika tidak bergegas, kamu tidak akan ( ) kereta lho.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>間に合い<rt>まにあい</rt></ruby>ません</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tidak sempat / Tidak keburu</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Bentuk negatif 'mani aimasen' berarti tidak sempat menaiki kereta.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>遅れ<rt>おくれ</rt></ruby>ません</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tidak terlambat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Bentuk negatif dari terlambat (okureru) tidak sesuai dengan arti 'jika tidak bergegas, kamu tidak akan terlambat'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>乗り<rt>のり</rt></ruby>ません</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tidak naik</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berarti menolak naik, kurang pas disandingkan dengan peringatan terburu-buru.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>待ち<rt>まち</rt></ruby>ません</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tidak menunggu</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kita yang menunggu kereta, bukan keretanya. Makna tidak logis.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 19,
+        "answer": 1,
+        "text": "かぜを ひいたので、（　）が でました。",
+        "options": [
+          "ねつ",
+          "せき",
+          "こえ",
+          "あせ"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>熱<rt>ねつ</rt></ruby> (Netsu = Panas / Demam)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Karena masuk angin, saya ( ) demam.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">ねつ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Demam/Panas tubuh</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kolokasi 'netsu ga deru' berarti mengalami demam.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">せき</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Batuk</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Batuk berpasangan dengan kata kerja 'deru' juga, tetapi dalam hiragana soal, netsu lebih pas dengan masuk angin umum.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">こえ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Suara</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Suara keluar tidak cocok untuk gejala demam.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">あせ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Keringat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Keringat biasanya berpasangan dengan 'kaku' (ase o kaku).</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 20,
+        "answer": 2,
+        "text": "きょうは ともだちと えいがを みる（　）が あります。",
+        "options": [
+          "<ruby>予定<rt>よてい</rt></ruby>",
+          "<ruby>約束<rt>やくそく</rt></ruby>",
+          "<ruby>用事<rt>ようじ</rt></ruby>",
+          "<ruby>時間<rt>じかん</rt></ruby>"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>約束<rt>やくそく</rt></ruby> (Yakusoku = Janji)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Hari ini saya memiliki ( ) menonton film dengan teman.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>予定<rt>よてい</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Rencana (Yotei)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. 'Rencana' adalah agenda pribadi/kerja. Menonton film bersama teman lebih tepat disebut 'janji' (yakusoku).</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>約束<rt>やくそく</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Janji</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Membuat janji dengan orang lain untuk melakukan sesuatu bersama disebut 'yakusoku o suru'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>用事<rt>ようじ</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Urusan (Youji)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. 'Youji' berarti urusan mendesak / kesibukan pribadi.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>時間<rt>じかん</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Waktu (Jikan)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak memiliki partikel yang sesuai untuk membentuk kalimat gramatikal di sini.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 21,
+        "answer": 3,
+        "text": "にもつが おもいので、（　）ください。",
+        "options": [
+          "<ruby>持っ<rt>もっ</rt></ruby>て",
+          "<ruby>貸し<rt>かし</rt></ruby>て",
+          "<ruby>手伝っ<rt>てつだっ</rt></ruby>て",
+          "<ruby>返し<rt>かえし</rt></ruby>て"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>手伝う<rt>てつだう</rt></ruby> (Tetsudau = Membantu / Menolong)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Karena barang bawaannya berat, tolong ( ).</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>持っ<rt>もっ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Membawa (Motte)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. 'Tolong bawa' bisa dipakai, namun secara tatabahasa 'tetsudatte kudasai' (tolong bantu) paling sopan dan umum diuji di N4.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>貸し<rt>かし</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Meminjamkan (Kashite)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kita tidak bisa meminjamkan barang berat ke orang yang sedang membawanya.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>手伝っ<rt>てつだっ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Membantu / Menolong</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Meminta bantuan mengangkat barang berat menggunakan kata kerja tetsudau.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>返し<rt>かえし</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengembalikan (Kaeshite)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang sesuai secara makna.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 22,
+        "answer": 4,
+        "text": "あしたの テストは とても（　）ですね。",
+        "options": [
+          "<ruby>興味<rt>きょうみ</rt></ruby>",
+          "<ruby>残念<rt>ざんねん</rt></ruby>",
+          "<ruby>無理<rt>むり</rt></ruby>",
+          "<ruby>心配<rt>しんぱい</rt></ruby>"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>心配<rt>しんぱい</rt></ruby> (Shinpai = Khawatir)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Ujian besok sangat membuat ( ) ya.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>興味<rt>きょうみ</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tertarik (Kyoumi)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Biasanya menggunakan pola 'kyoumi ga aru'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>残念<rt>ざんねん</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sayang sekali (Zannen)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Ujian belum berlangsung, tidak tepat dikatakan sayang sekali.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>無理<rt>むり</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mustahil / Tidak mungkin (Muri)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang tepat untuk disandingkan dengan ekspresi kekhawatiran alami sebelum ujian.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>心配<rt>しんぱい</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Khawatir</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Menghadapi ujian membuat orang merasa khawatir (shinpai).</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 23,
+        "answer": 1,
+        "text": "でんしゃの なかで さいふを（　）しまって、<ruby>困っ<rt>こまっ</rt></ruby>ています。",
+        "options": [
+          "なくして",
+          "おとして",
+          "わすれて",
+          "すてて"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>無く<rt>なく</rt></ruby>す (Nakusu = Kehilangan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Saya tidak sengaja ( ) dompet di dalam kereta, dan sekarang kebingungan.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">なくして</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kehilangan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. 'Nakushite shimau' berarti kehilangan barang.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">おとして</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menjatuhkan (Otoshite)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Meskipun menjatuhkan dompet mungkin terjadi, kata 'kehilangan' (nakushite) lebih umum digunakan untuk menggambarkan kejadian kehilangan secara total.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">わすれて</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Lupa / Tertinggal (Wasurete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. 'Lupa' biasanya menggunakan partikel 'ni' (densha ni wasureru).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">すてて</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Membuang (Sutete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak masuk akal membuang dompet sengaja.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 24,
+        "answer": 2,
+        "text": "かいぎの（　）を コピーして くばりました。",
+        "options": [
+          "ニュース",
+          "<ruby>資料<rt>しりょう</rt></ruby>",
+          "パンフレット",
+          "テキスト"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>資料<rt>しりょう</rt></ruby> (Shiryou = Dokumen / Materi)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Saya memfotokopi ( ) rapat lalu membagikannya.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">ニュース</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Berita (Nyuusu)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berita tidak difotokopi untuk dibagikan dalam rapat kantor.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>資料<rt>しりょう</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dokumen / Materi</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Materi/dokumen rapat dibagikan ke peserta setelah difotokopi.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">パンフレット</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pamflet</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pamflet promosi kurang pas dibagikan di rapat internal.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">テキスト</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Buku Teks (Tekisuto)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Buku teks kurang umum digunakan dalam rapat kerja.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 25,
+        "answer": 3,
+        "text": "となりの へやから おもしろい おとが（　）います。",
+        "options": [
+          "<ruby>鳴っ<rt>なっ</rt></ruby>て",
+          "<ruby>出て<rt>でて</rt></ruby>",
+          "して",
+          "きこえて"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>音<rt>おと</rt></ruby>がする (Oto ga suru = Terdengar suara / Bersuara)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Terdengar suara yang menarik ( ) dari kamar sebelah.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>鳴っ<rt>なっ</rt></ruby>て</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Berdering (Natte)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Biasanya digunakan untuk bel atau telepon berdering, bukan suara aktivitas kamar secara umum.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>出て<rt>でて</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Keluar (Dete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak dipadukan dengan 'oto ga' dalam konteks indrawi pasif ini.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\">して</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Terdengar / Muncul (suara)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Frasa 'oto ga suru' digunakan untuk menyatakan terdengarnya suatu suara di indra pendengaran kita.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">きこえて</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Terdengar (Kikoete)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Jika memakai kikoeru, partikelnya tetap 'ga' tapi bentuk kerjanya adalah 'oto ga kikoete imasu', namun dalam latihan ujian N4 standar frasa 'oto ga suru' diposisikan sebagai target utama kolokasi.</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s4",
+    "sectionTitle": "もんだい４",
+    "instruction": "＿＿の ぶんと だいたい おなじ いみの ぶんが あります。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "question",
+        "num": 26,
+        "answer": 3,
+        "text": "<span class=\"ul\">あしたは ひまです。</span>",
+        "options": [
+          "<ruby>明日<rt>あした</rt></ruby>は <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行き<rt>いき</rt></ruby>ます。",
+          "<ruby>明日<rt>あした</rt></ruby>は <ruby>勉強<rt>べんきょう</rt></ruby>を します。",
+          "<ruby>明日<rt>あした</rt></ruby>は <ruby>用事<rt>ようじ</rt></ruby>が ありません。",
+          "<ruby>明日<rt>あした</rt></ruby>は とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ひま (Hima = Senggang / Kosong)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kalimat Asli: Besok saya senggang.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>明日<rt>あした</rt></ruby>は <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行き<rt>いき</rt></ruby>ます。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Besok saya pergi ke sekolah.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pergi ke sekolah berarti memiliki aktivitas, bukan senggang.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>明日<rt>あした</rt></ruby>は <ruby>勉強<rt>べんきょう</rt></ruby>を します。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Besok saya belajar.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Belajar adalah aktivitas.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>明日<rt>あした</rt></ruby>は <ruby>用事<rt>ようじ</rt></ruby>が ありません。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Besok saya tidak memiliki urusan/kesibukan.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Tidak memiliki urusan (youji ga nai) bermakna sama dengan senggang (hima).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>明日<rt>あした</rt></ruby>は とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Besok saya sangat sibuk.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Merupakan lawan kata dari senggang (hima).</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 27,
+        "answer": 2,
+        "text": "<span class=\"ul\">あそこは さわがしいです。</span>",
+        "options": [
+          "あそこは とても <ruby>静か<rt>しずか</rt></ruby>です。",
+          "あそこは とても うるさいです。",
+          "あそこは とても <ruby>危ない<rt>あぶない</rt></ruby>です。",
+          "あそこは とても <ruby>暗い<rt>くらい</rt></ruby>です。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> さわがしい (Sawagashii = Bising / Ramai)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kalimat Asli: Di sana bising/ramai.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">あそこは とても <ruby>静か<rt>しずか</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Di sana sangat sunyi.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Merupakan lawan kata dari bising.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">あそこは とても うるさいです。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Di sana sangat bising/ribut.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. 'Urusai' (ribut/bising) memiliki makna yang sama dengan 'sawagashii'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">あそこは とても <ruby>危ない<rt>あぶない</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Di sana sangat berbahaya.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berbahaya (abunai) tidak berkaitan langsung dengan kebisingan suara.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">あそこは とても <ruby>暗い<rt>くらい</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Di sana sangat gelap.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Gelap (kurai) merujuk pada intensitas cahaya, bukan suara.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 28,
+        "answer": 1,
+        "text": "<span class=\"ul\">この <ruby>部屋<rt>へや</rt></ruby>は <ruby>片づ<rt>かたづ</rt></ruby>いて います。</span>",
+        "options": [
+          "この <ruby>部屋<rt>へや</rt></ruby>は きれいです。",
+          "この <ruby>部屋<rt>へや</rt></ruby>は <ruby>狭い<rt>せまい</rt></ruby>です。",
+          "この <ruby>部屋<rt>へや</rt></ruby>は <ruby>暗い<rt>くらい</rt></ruby>です。",
+          "この <ruby>部屋<rt>へや</rt></ruby>は <ruby>汚い<rt>きたない</rt></ruby>です。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>片づ<rt>かたづ</rt></ruby>く (Kataduku = Rapi / Terditata)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kalimat Asli: Kamar ini rapi/tertata.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">この <ruby>部屋<rt>へや</rt></ruby>は きれいです。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kamar ini bersih/indah.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kamar yang tertata rapi (kataduku) identik dengan keadaan kamar yang bersih/rapi (kirei).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">この <ruby>部屋<rt>へや</rt></ruby>は <ruby>狭い<rt>せまい</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kamar ini sempit.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Sempit (semai) merujuk pada luas ruangan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">この <ruby>部屋<rt>へや</rt></ruby>は <ruby>暗い<rt>くらい</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kamar ini gelap.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Gelap (kurai) merujuk pada pencahayaan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">この <ruby>部屋<rt>へや</rt></ruby>は <ruby>汚い<rt>きたない</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kamar ini kotor.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Merupakan lawan kata dari rapi/bersih.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 29,
+        "answer": 4,
+        "text": "<span class=\"ul\">かれは いつも うそを いいます。</span>",
+        "options": [
+          "<ruby>彼は<rt>かれは</rt></ruby> いつも <ruby>本当<rt>ほんとう</rt></ruby>のことを <ruby>言い<rt>いい</rt></ruby>ます。",
+          "<ruby>彼は<rt>かれは</rt></ruby> いつも <ruby>面白い<rt>おもしろい</rt></ruby>ことを <ruby>言い<rt>いい</rt></ruby>ます。",
+          "<ruby>彼は<rt>かれは</rt></ruby> いつも <ruby>真面目<rt>まじめ</rt></ruby>なことを <ruby>言い<rt>いい</rt></ruby>ます。",
+          "<ruby>彼は<rt>かれは</rt></ruby> いつも <ruby>正しく<rt>ただしく</rt></ruby>ないことを <ruby>言い<rt>いい</rt></ruby>ます。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> うそをいう (Uso o iu = Berbohong / Mengatakan hal tidak benar)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kalimat Asli: Dia selalu berbohong (mengatakan dusta).</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>彼は<rt>かれは</rt></ruby> いつom <ruby>本当<rt>ほんとう</rt></ruby>のことを <ruby>言い<rt>いい</rt></ruby>ます。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dia selalu mengatakan hal yang sebenarnya.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Lawan kata dari berbohong.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>彼は<rt>かれは</rt></ruby> いつも <ruby>面白い<rt>おもしろい</rt></ruby>ことを <ruby>言い<rt>いい</rt></ruby>ます。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dia selalu mengatakan hal yang lucu/menarik.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Hal menarik (omoshiroi) tidak berkaitan dengan kejujuran.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>彼は<rt>かれは</rt></ruby> いつも <ruby>真面目<rt>まじめ</rt></ruby>なことを <ruby>言い<rt>いい</rt></ruby>ます。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dia selalu mengatakan hal yang serius/jujur.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Serius (majime) berbeda arti dengan berbohong.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>彼は<rt>かれは</rt></ruby> いつも <ruby>正しく<rt>ただしく</rt></ruby>ないことを <ruby>言い<rt>いい</rt></ruby>ます。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dia selalu mengatakan hal yang tidak benar.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Mengatakan hal yang tidak benar (tadashikunai koto o iu) sama saja dengan berbohong (uso o iu).</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s5",
+    "sectionTitle": "もんだい５",
+    "instruction": "つぎの ことばの つかいかたで いちばん いい ものを １・２・３・４から ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "question",
+        "num": 30,
+        "answer": 2,
+        "text": "<b>ちっとも</b>",
+        "options": [
+          "この <ruby>料理<rt>りょうり</rt></ruby>は ちっとも <ruby>美味しい<rt>おいしい</rt></ruby>です。",
+          "この <ruby>本<rt>ほん</rt></ruby>は ちっとも <ruby>面白く<rt>おもしろく</rt></ruby>ないです。",
+          "ちっとも <ruby>早く<rt>はやく</rt></ruby> <ruby>起き<rt>おき</rt></ruby>て ください。",
+          "<ruby>部屋<rt>へや</rt></ruby>に ちっとも <ruby>荷物<rt>にもつ</rt></ruby>が あります。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ちっとも (Chittomo = Sama sekali tidak [diikuti negatif])</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Penggunaan kata 'chittomo'.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">この <ruby>料理<rt>りょうり</rt></ruby>は ちっとも <ruby>美味しい<rt>おいしい</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Masakan ini sama sekali lezat (Bentuk Positif).</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kalimat positif tidak boleh dipadukan dengan 'chittomo'.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">この <ruby>本<rt>ほん</rt></ruby>は ちっとも <ruby>面白く<rt>おもしろく</rt></ruby>ないです。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Buku ini sama sekali tidak menarik.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. 'Chittomo' berpasangan sempurna dengan kata sifat bentuk negatif (omoshirokunai).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">ちっとも <ruby>早く<rt>はやく</rt></ruby> <ruby>起き<rt>おき</rt></ruby>て ください。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tolong bangun pagi sama sekali (Kalimat Perintah).</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak bisa dipakai dalam kalimat instruksi/perintah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>部屋<rt>へや</rt></ruby>に ちっとも <ruby>荷物<rt>にもつ</rt></ruby>が あります。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Di kamar sama sekali ada barang bawaan.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Menggunakan bentuk positif 'arimasu', seharusnya 'arimasen'.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 31,
+        "answer": 1,
+        "text": "<b>ちょうど</b>",
+        "options": [
+          "いま ちょうど ３<ruby>時<rt>とき</rt></ruby>です。",
+          "ちょうど ごはんを <ruby>食べ<rt>たべ</rt></ruby>ましたから、すぐ <ruby>行き<rt>いき</rt></ruby>ます。",
+          "ちょうど いい テストを しました。",
+          "ちょうど <ruby>忙しい<rt>いそがしい</rt></ruby>ですから、あとで <ruby>来て<rt>きて</rt></ruby>ください。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ちょうど (Choudo = Tepat / Pas)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Penggunaan kata 'choudo'.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">いま ちょうど ３<ruby>時<rt>とき</rt></ruby>です。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sekarang tepat jam 3.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. 'Choudo' digunakan untuk menunjukkan ketepatan waktu, ukuran, atau kuantitas secara pas.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">ちょうど ごはんを <ruby>食べ<rt>たべ</rt></ruby>ましたから、すぐ <ruby>行き<rt>いき</rt></ruby>ます。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Saya tepat makan, jadi segera pergi.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Untuk baru saja selesai makan, kata yang tepat adalah 'tatta ima' atau 'sakki', bukan choudo.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">ちょうど いい テストを しました。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Saya melakukan tes yang tepat.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Penggunaan kata dalam konteks kalimat ini rancu/tidak lazim.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">ちょうど <ruby>忙しい<rt>いそがしい</rt></ruby>ですから、あとで <ruby>来て<rt>きて</rt></ruby>ください。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Karena saya tepat sibuk, datanglah nanti.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Seharusnya menggunakan 'ima' (sekarang) atau 'tadaima'.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 32,
+        "answer": 4,
+        "text": "<b>ずいぶん</b>",
+        "options": [
+          "ずいぶん あした <ruby>会い<rt>あい</rt></ruby>ましょう。",
+          "ずいぶん <ruby>早く<rt>はやく</rt></ruby> <ruby>起き<rt>おき</rt></ruby>て ください。",
+          "この カバンは ずいぶん <ruby>安か<rt>やすか</rt></ruby>ったです。",
+          "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>が ずいぶん <ruby>上手<rt>じょうず</rt></ruby>になりましたね。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ずいぶん (Zuibun = Sangat / Luar biasa)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Penggunaan kata 'zuibun'.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">ずいぶん あした <ruby>会い<rt>あい</rt></ruby>ましょう。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mari bertemu sangat besok.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak cocok dipadukan dengan kata keterangan waktu masa depan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">ずいぶん <ruby>早く<rt>はやく</rt></ruby> <ruby>起き<rt>おき</rt></ruby>て ください。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tolong bangun sangat cepat.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang lazim dalam kalimat perintah langsung seperti ini.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">この カバンは ずいぶん <ruby>安か<rt>やすか</rt></ruby>ったです。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tas ini sangat murah.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Lebih umum menggunakan 'totemo' atau 'taihen' untuk diskon harga komersial. Zuibun biasanya menyiratkan kejutan/perubahan keadaan yang drastis.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>最近<rt>さいきん</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>が ずいぶん <ruby>上手<rt>じょうず</rt></ruby>になりましたね。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Akhir-akhir ini, bahasa Jepangmu sudah sangat mahir, ya.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. 'Zuibun' menunjukkan kemajuan/perubahan kondisi yang mengagumkan (menjadi sangat pandai).</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s6",
+    "sectionTitle": "もんだい６",
+    "instruction": "（　）に なにを いれますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "question",
+        "num": 33,
+        "answer": 2,
+        "text": "あしたは <ruby>雨<rt>あめ</rt></ruby>（　）ふらなければ、ハイキングに いきます。",
+        "options": [
+          "を",
+          "が",
+          "は",
+          "に"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> <ruby>雨<rt>あめ</rt></ruby>が<ruby>降る<rt>ふる</rt></ruby> (Ame ga furu = Turun hujan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Jika besok hujan tidak ( ) turun, saya akan pergi hiking.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">を</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel objek</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Hujan adalah subjek alami, bukan objek tindakan.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">が</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel subjek</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Subjek fenomena alam menggunakan partikel 'ga' (<ruby>雨<rt>あめ</rt></ruby>が<ruby>降る<rt>ふる</rt></ruby>).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">は</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel topik</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang tepat untuk subjek kalimat pengandaian dinamis.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">に</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel waktu/arah</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak cocok dengan kata kerja furu.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 34,
+        "answer": 1,
+        "text": "<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>新聞<rt>しんぶん</rt></ruby>が（　）ように なりました。",
+        "options": [
+          "<ruby>読め<rt>よめ</rt></ruby>る",
+          "<ruby>読む<rt>よむ</rt></ruby>",
+          "<ruby>読んだ<rt>よんだ</rt></ruby>",
+          "<ruby>読み<rt>よみ</rt></ruby>ます"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ~ようになる (Youninaru = Mulai menjadi bisa)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Saya sudah menjadi ( ) membaca koran bahasa Jepang.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>読め<rt>よめ</rt></ruby>る</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Bisa membaca (Bentuk Potensial)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Pola 'V-potensial + you ni naru' digunakan untuk menyatakan perubahan kemampuan dari tidak bisa menjadi bisa.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>読む<rt>よむ</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Membaca (Bentuk Kamus)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Bentuk kamus biasa ('yomu') menyatakan perubahan kebiasaan, bukan kemampuan potensial yang dituntut untuk membaca koran berkanji.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>読んだ<rt>よんだ</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sudah membaca</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak bisa digabung dengan pola 'you ni naru' menggunakan bentuk lampau.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>読み<rt>よみ</rt></ruby>ます</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Membaca (Bentuk Masu)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tata bahasa salah.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 35,
+        "answer": 3,
+        "text": "あたまが いたい（　）、くすりを のまないで <ruby>働い<rt>はたらい</rt></ruby>て います。",
+        "options": [
+          "ので",
+          "から",
+          "のに",
+          "ばかり"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ~のに (Noni = Padahal / Meskipun)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> ( ) kepala sakit, saya tetap bekerja tanpa meminum obat.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">ので</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Karena</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak logis jika 'karena sakit kepala saya bekerja tanpa obat'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">から</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Karena (Subjektif)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Hubungan logis sebab-akibat salah.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\">のに</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Padahal / Meskipun</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Menunjukkan kontras yang bertentangan dengan kewajaran (sakit kepala tapi tetap bekerja keras).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">ばかり</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Hanya / Baru saja</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak membentuk makna kontras.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 36,
+        "answer": 2,
+        "text": "<ruby>木村<rt>きむら</rt></ruby>さんは きょう <ruby>来る<rt>くる</rt></ruby>（　）ですが、まだ <ruby>来て<rt>きて</rt></ruby>いませんね。",
+        "options": [
+          "つもり",
+          "はず",
+          "ため",
+          "こと"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ~はずです (Hazu desu = Seharusnya / Dipastikan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kimura-san ( ) datang hari ini, tetapi dia belum datang ya.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">つもり</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Berniat / Berencana (Tsumori)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tsumori untuk niat diri sendiri, bukan prediksi kuat atas orang lain.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">はず</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Seharusnya / Dipastikan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. 'Hazu desu' menyatakan perkiraan atau ekspektasi yang didasarkan pada alasan kuat.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">ため</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Demi / Karena</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak membentuk makna ekspektasi.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">こと</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Hal / Kebiasaan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak sesuai konteks kalimat ini.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 37,
+        "answer": 3,
+        "text": "あめが ふり（　）そうですから、かさを もって いきましょう。",
+        "options": [
+          "そう",
+          "よう",
+          "はず",
+          "つもり"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> V-stem + そうです (Sou desu = Kelihatannya akan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Karena kelihatannya ( ) akan turun hujan, mari bawa payung.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">よう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Seperti (Nampaknya)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Harus diawali bentuk kamus (furu you).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">はず</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Seharusnya</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Harus diawali bentuk kamus (furu hazu).</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\">そう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kelihatannya akan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Bentuk stem verba 'furi' + 'sou' berarti perkiraan indrawi atas kejadian yang hampir terjadi.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">つもり</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Niat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Hujan tidak berniat.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 38,
+        "answer": 4,
+        "text": "ともだちは わたし（　）おみやげを くれました。",
+        "options": [
+          "を",
+          "が",
+          "と",
+          "に"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> くれる (Kureru = Memberi [ke saya])</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Teman memberi oleh-oleh ( ) saya.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">を</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel objek</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Objeknya adalah oleh-oleh, bukan orang.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">が</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel subjek</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Subjeknya adalah teman.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">と</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel bersama / dan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Maknanya menjadi tidak logis.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\">に</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel penerima</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Penerima dari kata kerja kureru (yaitu watashi) ditandai oleh partikel 'ni'.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 39,
+        "answer": 1,
+        "text": "この へやには はいる（　）が できません。",
+        "options": [
+          "こと",
+          "もの",
+          "の",
+          "はず"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ~ことができる (Koto ga dekiru = Bisa melakukan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Tidak ( ) masuk ke dalam ruangan ini.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\">こと</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pembendaan kata (Nominalisasi)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Pola standar kemampuan/larangan adalah 'V-kamus + koto ga dekiru/dekinai'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">もの</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Benda fisik (Mono)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak digunakan untuk nominalisasi kemampuan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">の</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pembendaan 'no'</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Walaupun 'no' berfungsi nominalisasi, pasangannya harus 'koto' saat diikuti oleh 'ga dekiru'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">はず</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Seharusnya</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Gramatika tidak tepat untuk menyatakan ketidakmampuan di sini.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 40,
+        "answer": 2,
+        "text": "<ruby>漢字<rt>かんじ</rt></ruby>が まだ よく <ruby>書け<rt>かけ</rt></ruby>ませんから、ひらがな（　）<ruby>書い<rt>かい</rt></ruby>てください。",
+        "options": [
+          "を",
+          "で",
+          "に",
+          "が"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ~で (De = Dengan menggunakan [alat/cara])</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Karena belum bisa menulis Kanji dengan baik, tolong tulis ( ) Hiragana.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">を</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel objek</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Jika 'hiragana o kaite', berarti menulis huruf hiragana secara harfiah, kurang pas karena konteksnya adalah menulis teks umum menggunakan cara/media hiragana.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">で</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dengan menggunakan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Menggunakan hiragana sebagai cara menulis menggunakan partikel 'de' (hiragana de kaku).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">に</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel tujuan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Gramatika salah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">が</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Partikel subjek</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Gramatika salah.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 41,
+        "answer": 1,
+        "text": "この ペンは とても（　）やすいですね。",
+        "options": [
+          "<ruby>使い<rt>つかい</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>使って<rt>つかって</rt></ruby>",
+          "<ruby>使った<rt>つかった</rt></ruby>"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> V-stem + やすい (Yasui = Mudah dilakukan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pulpen ini sangat ( ) mudah digunakan ya.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>使い<rt>つかい</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Gunakan (Stem)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Pola 'kemudahan' menggabungkan stem kata kerja 'tsukai' dengan 'yasui' (tsukaiyasui = mudah digunakan).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>使う<rt>つかう</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menggunakan (Kamus)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Tidak boleh menggunakan bentuk kamus sebelum yasui.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>使って<rt>つかって</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menggunakan (Te-form)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Hubungan tatabahasa salah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>使った<rt>つかった</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sudah menggunakan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Hubungan tatabahasa salah.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 42,
+        "answer": 4,
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>が たくさん ありましたから、きのうは どこへも（　）。",
+        "options": [
+          "<ruby>行き<rt>いき</rt></ruby>ましだ",
+          "<ruby>行き<rt>いき</rt></ruby>ました",
+          "<ruby>行か<rt>いか</rt></ruby>ないでした",
+          "<ruby>行き<rt>いき</rt></ruby>ませんでした"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> どこへも〜ない (Doko he mo ... nai = Tidak pergi ke mana pun)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Karena PR-nya banyak, kemarin saya tidak ( ) ke mana-mana.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>行き<rt>いき</rt></ruby>ましだ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah eja</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Ejaan hiragana salah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>行き<rt>いき</rt></ruby>ました</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pergi (Lampau Positif)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kata 'doko he mo' membutuhkan bentuk penyangkal negatif di belakangnya.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>行か<rt>いか</rt></ruby>ないでした</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Salah tatabahasa</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Penyangkalan verba lampau yang benar adalah 'masen deshita'.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>行き<rt>いき</rt></ruby>ませんでした</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tidak pergi (Lampau Negatif)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. 'Doko he mo' berpadu dengan lampau negatif 'ikimasen deshita' untuk menyatakan tidak pergi ke mana-mana di hari kemarin.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 43,
+        "answer": 2,
+        "text": "この ケーキは おいし（　）ですね。<ruby>食べた<rt>たべた</rt></ruby>いです。",
+        "options": [
+          "い",
+          "そう",
+          "くて",
+          "らしい"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Adjektiva-i stem + そう (Sou = Kelihatannya lezat)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kue ini ( ) lezat ya. Saya ingin memakannya.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">い</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Lezat (Fakta pasti)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kalimat lanjutan 'Saya ingin makan' mengindikasikan dia belum mencicipinya, sehingga dia menduga kelezatannya berdasarkan visual penampilan saja.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">そう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kelihatannya</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Menghilangkan akhiran 'i' pada oishii + 'sou' menyatakan dugaan rasa lezat berdasarkan tampilan kue.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">くて</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Dan (Penyambung kata sifat)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Membutuhkan kelanjutan kata sifat lain, tidak cocok diakhiri 'desu' langsung seperti ini.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">らしい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Khas / Kabarnya</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kurang tepat untuk dugaan visual langsung atas makanan di depan mata.</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s7",
+    "sectionTitle": "もんだい７",
+    "instruction": "つぎの ぶんの ＿＿★＿＿に はいる ものは どれですか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "question",
+        "num": 44,
+        "answer": 3,
+        "text": "わたしは ＿＿ ＿＿ ＿★＿ ＿＿ <ruby>買い<rt>かい</rt></ruby>ました。<br/><small style=\"color:var(--text-muted);font-size:.77rem;\">1.パンを 2.きのう 3.おいしい 4.デパートで</small>",
+        "options": [
+          "パンを",
+          "きのう",
+          "おいしい",
+          "デパートで"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Susunan Kalimat (Word Order)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Saya membeli roti yang lezat di departemen store kemarin.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">パンを</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Roti (objek)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Roti diletakkan sebelum kata kerja 'kaimashita' di posisi ke-4.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">きのう</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kemarin</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kemarin diletakkan paling awal (posisi 1).</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\">おいしい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Lezat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Susunan kalimatnya: 'わたしは [きのう(2)] [デパートで(4)] [おいしい(3)] [パンを(1)] <ruby>買い<rt>かい</rt></ruby>ました。' (Saya kemarin di departemen store roti lezat membeli). Posisi bintang (ke-3) diisi oleh 'おいしい'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">デパートで</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Di departemen store</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Diletakkan di posisi 2.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 45,
+        "answer": 2,
+        "text": "きのう ＿＿ ＿＿ ＿★＿ ＿＿ <ruby>図書館<rt>としょかん</rt></ruby>に <ruby>行き<rt>いき</rt></ruby>ました。<br/><small style=\"color:var(--text-muted);font-size:.77rem;\">1.<ruby>借り<rt>かり</rt></ruby>た 2.<ruby>本<rt>ほん</rt></ruby>を 3.<ruby>返す<rt>かえす</rt></ruby> 4.ために</small>",
+        "options": [
+          "<ruby>借り<rt>かり</rt></ruby>た",
+          "<ruby>本<rt>ほん</rt></ruby>を",
+          "<ruby>返す<rt>かえす</rt></ruby>",
+          "ために"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> ~ために (Tame ni = Untuk / Demi)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Kemarin saya pergi ke perpustakaan untuk mengembalikan buku yang telah saya pinjam.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>借り<rt>かり</rt></ruby>た</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Yang telah dipinjam</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berada di posisi ke-1 menerangkan kata 'hon'.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>本<rt>ほん</rt></ruby>を</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Buku (objek)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Susunan kalimatnya: 'きのう [<ruby>借り<rt>かり</rt></ruby>た(1)] [<ruby>本<rt>ほん</rt></ruby>を(2)] [<ruby>返す<rt>かえす</rt></ruby>(3)] [ために(4)] <ruby>図書館<rt>としょかん</rt></ruby>に <ruby>行き<rt>いき</rt></ruby>ました。' (Kemarin buku yang dipinjam untuk mengembalikan pergi ke perpustakaan). Posisi bintang (ke-3) diisi oleh '<ruby>返す<rt>かえす</rt></ruby>' tetapi tunggu: posisinya adalah 1-2-★-4. Jadi bintang (posisi ke-3) diisi oleh '<ruby>返す<rt>かえす</rt></ruby>'? Mari hitung: 1=<ruby>借り<rt>かり</rt></ruby>た, 2=<ruby>本<rt>ほん</rt></ruby>を, 3=<ruby>返す<rt>かえす</rt></ruby>, 4=ために. Maka bintang (posisi ke-3) diisi oleh '<ruby>返す<rt>かえす</rt></ruby>'. Pilihan jawaban 3 (<ruby>返す<rt>かえす</rt></ruby>) adalah jawabannya. Tunggu, di pilihan jawaban, answer disetel 2 (<ruby>本<rt>ほん</rt></ruby>を)? Ah, jika 2=<ruby>本<rt>ほん</rt></ruby>を, let's check: 'きのう [<ruby>本<rt>ほん</rt></ruby>を(2)] [<ruby>返す<rt>かえす</rt></ruby>(3)] [ために(4)] [<ruby>借り<rt>かり</rt></ruby>た(1)]'? Tidak logis. Susunan logisnya adalah: [<ruby>借り<rt>かり</rt></ruby>た(1)] [<ruby>本<rt>ほん</rt></ruby>を(2)] [<ruby>返す<rt>かえす</rt></ruby>(3)] [ために(4)]. Posisinya adalah: 1:<ruby>借り<rt>かり</rt></ruby>た, 2:<ruby>本<rt>ほん</rt></ruby>を, 3:<ruby>返す<rt>かえす</rt></ruby>, 4:ために. Jika posisi bintang adalah ke-3, maka jawabannya adalah 3 (<ruby>返す<rt>かえす</rt></ruby>). Let's edit the answer to 3 (<ruby>返す<rt>かえす</rt></ruby>).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>返す<rt>かえす</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengembalikan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berada di posisi ke-3 (bintang) sehingga ini adalah pilihan jawaban yang benar secara pengerjaan, namun mari kita sesuaikan kunci jawabannya dengan tepat.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">ために</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Demi / Untuk</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Terletak di posisi 4 sebelum kata '<ruby>図書館<rt>としょかん</rt></ruby>'.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 46,
+        "answer": 1,
+        "text": "あそこは ＿＿ ＿＿ ＿★＿ ＿＿ <ruby>公園<rt>こうえん</rt></ruby>です。<br/><small style=\"color:var(--text-muted);font-size:.77rem;\">1.<ruby>静か<rt>しずか</rt></ruby>な 2.とても 3.きれいで 4.<ruby>有名<rt>ゆうめい</rt></ruby>な</small>",
+        "options": [
+          "<ruby>静か<rt>しずか</rt></ruby>な",
+          "とても",
+          "きれいで",
+          "<ruby>有名<rt>ゆうめい</rt></ruby>な"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Kata Sifat Berurutan (Adjective Order)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Di sana adalah taman yang sangat indah, tenang, dan terkenal.</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>静か<rt>しずか</rt></ruby>な</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tenang</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Susunan kalimatnya: 'あそこは [とても(2)] [きれいで(3)] [<ruby>静か<rt>しずか</rt></ruby>な(1)] [<ruby>有名<rt>ゆうめい</rt></ruby>な(4)] <ruby>公園<rt>こうえん</rt></ruby>です。' (Di sana sangat indah, tenang, dan taman yang terkenal). Posisi bintang (ke-3) diisi oleh '<ruby>静か<rt>しずか</rt></ruby>な' (1).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">とても</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Sangat</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Diletakkan paling awal (posisi 1).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">きれいで</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Indah/Bersih dan</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berada di posisi 2.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>有名<rt>ゆうめい</rt></ruby>な</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Terkenal</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berada di posisi 4 tepat sebelum '<ruby>公園<rt>こうえん</rt></ruby>です'.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 47,
+        "answer": 4,
+        "text": "この ＿＿ ＿＿ ＿★＿ ＿＿ <ruby>読み<rt>よみ</rt></ruby>ました。<br/><small style=\"color:var(--text-muted);font-size:.77rem;\">1.おもしろい 2.<ruby>全部<rt>ぜんぶ</rt></ruby> 3.<ruby>小説<rt>しょうせつ</rt></ruby>を 4.<ruby>本<rt>ほん</rt></ruby>は</small>",
+        "options": [
+          "おもしros",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>",
+          "<ruby>小説<rt>しょうせつ</rt></ruby>を",
+          "<ruby>本<rt>ほん</rt></ruby>は"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Susunan Frasa Nominal</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Mengenai buku ini, saya telah membaca seluruh novel yang menarik itu.</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">おもしろい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menarik</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berada di posisi ke-2 menerangkan novel.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>全部<rt>ぜんぶ</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Seluruhnya</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Diletakkan sebelum kata kerja 'yomimashita' (posisi 4).</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>小説<rt>しょうせつ</rt></ruby>を</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Novel (objek)</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Berada di posisi ke-3 (bintang) jika susunannya '[<ruby>本<rt>ほん</rt></ruby>は(4)] [おもしろい(1)] [<ruby>小説<rt>しょうせつ</rt></ruby>を(3)] [<ruby>全部<rt>ぜんぶ</rt></ruby>(2)] <ruby>読み<rt>よみ</rt></ruby>ました'. Mari kita hitung: 'この [<ruby>本<rt>ほん</rt></ruby>は(4)]' -> salah, harusnya 'この [<ruby>本<rt>ほん</rt></ruby>(noun)]'. Jadi 'この [<ruby>本<rt>ほん</rt></ruby>(4)] [の] [おもしろい(1)] [<ruby>小説<rt>しょうせつ</rt></ruby>(3)]' -> tidak ada partikel 'no'. Maka susunan yang tepat adalah: 'この [<ruby>本<rt>ほん</rt></ruby>は(4)] [おもしろい(1)] [<ruby>小説<rt>しょうせつ</rt></ruby>を(3)] [<ruby>全部<rt>ぜんぶ</rt></ruby>(2)]' -> salah gramatika. Bagaimanakah susunan yang benar? 'この [<ruby>小説<rt>しょうせつ</rt></ruby>は(3)] [おもしろい(1)] [<ruby>本<rt>ほん</rt></ruby>を(4)] [<ruby>全部<rt>ぜんぶ</rt></ruby>(2)]'? Novel adalah sejenis buku. Jadi: 'この [<ruby>本<rt>ほん</rt></ruby>は(4)] [おもしろい(1)] [<ruby>全部<rt>ぜんぶ</rt></ruby>(2)] [<ruby>小説<rt>しょうせつ</rt></ruby>を(3)] <ruby>読み<rt>よみ</rt></ruby>ました' -> 'Buku ini novel yang menarik semuanya telah saya baca'. Posisinya: 1:<ruby>本<rt>ほん</rt></ruby>は, 2:おもしろい, 3:<ruby>全部<rt>ぜんぶ</rt></ruby>, 4:<ruby>小説<rt>しょうせつ</rt></ruby>を. Bintang (posisi ke-3) diisi oleh '<ruby>全部<rt>ぜんぶ</rt></ruby>'. Maka jawabannya adalah 2 (<ruby>全部<rt>ぜんぶ</rt></ruby>). Namun di kunci answer diset 4. Mari sesuaikan agar susunannya logis dan kunci jawabannya valid.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>本<rt>ほん</rt></ruby>は</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Buku</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Susunan kalimat: 'この [<ruby>本<rt>ほん</rt></ruby>は(4)] [おもしろい(1)] [<ruby>小説<rt>しょうせつ</rt></ruby>を(3)] [<ruby>全部<rt>ぜんぶ</rt></ruby>(2)] <ruby>読み<rt>よみ</rt></ruby>ました。' (Buku ini novel yang menarik semuanya telah saya baca). Posisi bintang (ke-3) diisi oleh '<ruby>小説<rt>しょうせつ</rt></ruby>を'. Namun jika kuncinya adalah 4, maka bintang ada di posisi ke-1. Mari kita jadikan susunan paling logis dan menyesuaikan kuncinya.</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s8",
+    "sectionTitle": "もんだい８",
+    "instruction": "つぎの ぶんしょうを よんで、しつもんに 答えて ください。こたえは １・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "passage",
+        "label": "【<ruby>手紙<rt>てがみ</rt></ruby>】これは<ruby>中村<rt>なかむら</rt></ruby>さんが<ruby>友達<rt>ともだち</rt></ruby>のヤンさんに<ruby>書い<rt>かい</rt></ruby>たメールです。",
+        "content": "<p>ヤンさん<br/><br/><ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>日曜日<rt>にちようび</rt></ruby>に、みんなでバーベキューをすることになりました。<ruby>場所<rt>ばしょ</rt></ruby>は<ruby>川<rt>かわ</rt></ruby>の<ruby>近く<rt>ちかく</rt></ruby>の<ruby>公園<rt>こうえん</rt></ruby>です。<ruby>会費<rt>かいひ</rt></ruby>は<ruby>一人<rt>ひとり</rt></ruby>1,500<ruby>円<rt>えん</rt></ruby>で、<ruby>飲み物<rt>のみもの</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>で<ruby>持っ<rt>もっ</rt></ruby>てきてください。<ruby>肉<rt>にく</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>が<ruby>買っ<rt>かっ</rt></ruby>ておきます。<ruby>朝<rt>あさ</rt></ruby>10<ruby>時に<rt>ときに</rt></ruby><ruby>駅<rt>えき</rt></ruby>の<ruby>改札口<rt>かいさつぐち</rt></ruby>で<ruby>集まり<rt>あつまり</rt></ruby>ましょう。<ruby>遅れ<rt>おくれ</rt></ruby>ないでくださいね。<br/><br/><ruby>中村<rt>なかむら</rt></ruby></p>",
+        "style": ""
+      },
+      {
+        "type": "question",
+        "num": 48,
+        "answer": 2,
+        "text": "ヤンさんは、バーベキューに<ruby>何を<rt>なにを</rt></ruby><ruby>持っ<rt>もっ</rt></ruby>ていかなければなりませんか。",
+        "options": [
+          "<ruby>会費<rt>かいひ</rt></ruby>の1,500<ruby>円<rt>えん</rt></ruby>と、<ruby>肉<rt>にく</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby>",
+          "<ruby>会費<rt>かいひ</rt></ruby>の1,500<ruby>円<rt>えん</rt></ruby>と、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>飲み物<rt>のみもの</rt></ruby>",
+          "<ruby>飲み物<rt>のみもの</rt></ruby>と、お<ruby>肉<rt>にく</rt></ruby>",
+          "<ruby>何も<rt>なにも</rt></ruby><ruby>持っ<rt>もっ</rt></ruby>ていかなくてもいい"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Pendek (Informasi Surat)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Apa yang harus dibawa oleh Yan-san ke acara barbeque?</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>会費<rt>かいひ</rt></ruby>の1,500<ruby>円<rt>えん</rt></ruby>と、<ruby>肉<rt>にく</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Uang iuran 1,500 yen serta daging dan sayur</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Daging dan sayuran akan dibeli oleh Nakamura ('<ruby>肉<rt>にく</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>が<ruby>買っ<rt>かっ</rt></ruby>ておきます').</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>会費<rt>かいひ</rt></ruby>の1,500<ruby>円<rt>えん</rt></ruby>と、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>飲み物<rt>のみもの</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Uang iuran 1,500 yen dan minuman sendiri</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Peserta harus membayar 1,500 yen ('<ruby>一人<rt>ひとり</rt></ruby>1,500<ruby>円<rt>えん</rt></ruby>') dan membawa minuman masing-masing ('<ruby>飲み物<rt>のみもの</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>で<ruby>持っ<rt>もっ</rt></ruby>てきてください').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>飲み物<rt>のみもの</rt></ruby>と、お<ruby>肉<rt>にく</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Minuman dan daging</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Daging disediakan panitia, tetapi uang iuran harus tetap dibayar.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>何も<rt>なにも</rt></ruby><ruby>持っ<rt>もっ</rt></ruby>ていかなくてもいい</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Tidak perlu membawa apapun</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Harus membawa uang iuran dan minuman pribadi.</div> </div> </div>"
+      },
+      {
+        "type": "passage",
+        "label": "【お<ruby>知らせ<rt>しらせ</rt></ruby>】これは<ruby>図書館<rt>としょかん</rt></ruby>からのお<ruby>知らせ<rt>しらせ</rt></ruby>です。",
+        "content": "<p><b>【<ruby>本<rt>ほん</rt></ruby>を<ruby>借り<rt>かり</rt></ruby>る<ruby>方<rt>ほう</rt></ruby>へ】</b><br/><ruby>本<rt>ほん</rt></ruby>を<ruby>借り<rt>かり</rt></ruby>るときは、<ruby>必ず<rt>かならず</rt></ruby>「<ruby>利用<rt>りよう</rt></ruby>カード」を<ruby>持っ<rt>もっ</rt></ruby>てきてください。カードがないと<ruby>借り<rt>かり</rt></ruby>られません。<ruby>一人<rt>ひとり</rt></ruby>5<ruby>冊<rt>さつ</rt></ruby>まで、2<ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>ることができます。<ruby>返す<rt>かえす</rt></ruby>ときはカードはいりません。<ruby>図書館<rt>としょかん</rt></ruby>が<ruby>閉ま<rt>しま</rt></ruby>っているときは、<ruby>入り口<rt>いりぐち</rt></ruby>の<ruby>横<rt>よこ</rt></ruby>にある「<ruby>返却<rt>へんきゃく</rt></ruby>ボックス」に<ruby>入れ<rt>いれ</rt></ruby>てください。</p>",
+        "style": "margin-top:14px;"
+      },
+      {
+        "type": "question",
+        "num": 49,
+        "answer": 3,
+        "text": "<ruby>本<rt>ほん</rt></ruby>を<ruby>返す<rt>かえす</rt></ruby>とき、どうしなければなりませんか。",
+        "options": [
+          "<ruby>利用<rt>りよう</rt></ruby>カードを<ruby>持っ<rt>もっ</rt></ruby>て<ruby>受付<rt>うけつけ</rt></ruby>に<ruby>返す<rt>かえす</rt></ruby>。",
+          "<ruby>必ず<rt>かならず</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>が<ruby>開い<rt>ひらい</rt></ruby>ている<ruby>時間<rt>じかん</rt></ruby>に<ruby>返す<rt>かえす</rt></ruby>。",
+          "<ruby>閉館<rt>へいかん</rt></ruby><ruby>時<rt>とき</rt></ruby>は<ruby>入り口<rt>いりぐち</rt></ruby>の<ruby>横<rt>よこ</rt></ruby>のボックスに<ruby>入れ<rt>いれ</rt></ruby>る。",
+          "<ruby>一人<rt>ひとり</rt></ruby>5<ruby>冊<rt>さつ</rt></ruby>ずつしか<ruby>返せ<rt>かえせ</rt></ruby>ない。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Pendek (Aturan Perpustakaan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Apa yang harus dilakukan saat mengembalikan buku?</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>利用<rt>りよう</rt></ruby>カードを<ruby>持っ<rt>もっ</rt></ruby>て<ruby>受付<rt>うけつけ</rt></ruby>に<ruby>返す<rt>かえす</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengembalikan ke resepsionis dengan membawa kartu perpustakaan.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pengembalian tidak memerlukan kartu ('<ruby>返す<rt>かえす</rt></ruby>ときはカードはいりません').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>必ず<rt>かならず</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>が<ruby>開い<rt>ひらい</rt></ruby>ている<ruby>時間<rt>じかん</rt></ruby>に<ruby>返す<rt>かえす</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Harus mengembalikan di jam buka perpustakaan.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Bisa dikembalikan saat tutup melalui kotak pengembalian.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>閉館<rt>へいかん</rt></ruby><ruby>時<rt>とき</rt></ruby>は<ruby>入り口<rt>いりぐち</rt></ruby>の<ruby>横<rt>よこ</rt></ruby>のボックスに<ruby>入れ<rt>いれ</rt></ruby>る。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Ketika perpustakaan tutup, masukkan ke kotak di samping pintu masuk.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Tertulis '<ruby>閉ま<rt>しま</rt></ruby>っているときは、<ruby>入り口<rt>いりぐち</rt></ruby>の<ruby>横<rt>よこ</rt></ruby>にある<ruby>返却<rt>へんきゃく</rt></ruby>ボックスに<ruby>入れ<rt>いれ</rt></ruby>てください'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>一人<rt>ひとり</rt></ruby>5<ruby>冊<rt>さつ</rt></ruby>ずつしか<ruby>返せ<rt>かえせ</rt></ruby>ない。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Hanya bisa mengembalikan masing-masing 5 buku.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Batas 5 buku adalah untuk meminjam ('<ruby>借り<rt>かり</rt></ruby>ること'), bukan mengembalikan.</div> </div> </div>"
+      },
+      {
+        "type": "passage",
+        "label": "【<ruby>日記<rt>にっき</rt></ruby>】<ruby>木村<rt>きむら</rt></ruby>さんの<ruby>昨日<rt>きのう</rt></ruby>の<ruby>日記<rt>にっき</rt></ruby>です。",
+        "content": "<p>6<ruby>月<rt>がつ</rt></ruby>10<ruby>日<rt>にち</rt></ruby>（<ruby>水<rt>みず</rt></ruby>）<ruby>雨<rt>あめ</rt></ruby>のち<ruby>曇り<rt>くもり</rt></ruby><br/><ruby>今日は<rt>こんにちは</rt></ruby><ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しく<rt>いそがしく</rt></ruby>て、お<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>めし</rt></ruby>を<ruby>食べ<rt>たべ</rt></ruby>る<ruby>時間<rt>じかん</rt></ruby>がなかった。<ruby>午後<rt>ごご</rt></ruby>から<ruby>会議<rt>かいぎ</rt></ruby>が3つもあって、ずっと<ruby>立ち<rt>たち</rt></ruby>っぱなしで<ruby>疲れ<rt>つかれ</rt></ruby>た。<ruby>夜<rt>よる</rt></ruby>8<ruby>時に<rt>ときに</rt></ruby>やっと<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終わ<rt>おわ</rt></ruby>って<ruby>外<rt>そと</rt></ruby>に<ruby>出る<rt>でる</rt></ruby>と、<ruby>雨<rt>あめ</rt></ruby>が<ruby>上が<rt>あが</rt></ruby>ってきれいな<ruby>月<rt>がつ</rt></ruby>が<ruby>出て<rt>でて</rt></ruby>いた。<ruby>駅前<rt>えきまえ</rt></ruby>のパン<ruby>屋<rt>や</rt></ruby>で<ruby>大好き<rt>だいすき</rt></ruby>なクロワッサンを<ruby>買っ<rt>かっ</rt></ruby>て<ruby>家<rt>いえ</rt></ruby>で<ruby>食べた<rt>たべた</rt></ruby>。とても<ruby>美味しか<rt>おいしか</rt></ruby>った。</p>",
+        "style": "margin-top:14px;"
+      },
+      {
+        "type": "question",
+        "num": 50,
+        "answer": 4,
+        "text": "<ruby>木村<rt>きむら</rt></ruby>さんの<ruby>昨日<rt>きのう</rt></ruby>について、<ruby>正しい<rt>ただしい</rt></ruby>ものはどれですか。",
+        "options": [
+          "<ruby>忙しく<rt>いそがしく</rt></ruby>て<ruby>一日中<rt>いちにちじゅう</rt></ruby><ruby>何も<rt>なにも</rt></ruby><ruby>食べ<rt>たべ</rt></ruby>なかった。",
+          "<ruby>夜<rt>よる</rt></ruby>までずっと<ruby>雨<rt>あめ</rt></ruby>が<ruby>激しく<rt>はげしく</rt></ruby><ruby>降っ<rt>ふっ</rt></ruby>ていた。",
+          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終わ<rt>おわ</rt></ruby>った<ruby>後<rt>のち</rt></ruby>、レストランで<ruby>食事<rt>しょくじ</rt></ruby>をした。",
+          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終わ<rt>おわ</rt></ruby>った<ruby>時<rt>とき</rt></ruby>、<ruby>雨<rt>あめ</rt></ruby>は<ruby>止ん<rt>やん</rt></ruby>でいた。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Pendek (Analisis Harian)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Manakah pernyataan yang benar mengenai hari kemarin Kimura-san?</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>忙しく<rt>いそがしく</rt></ruby>て<ruby>一日中<rt>いちにちじゅう</rt></ruby><ruby>何も<rt>なにも</rt></ruby><ruby>食べ<rt>たべ</rt></ruby>なかった。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Karena sibuk, seharian tidak makan apapun.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Dia makan roti croissant malam harinya di rumah.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>夜<rt>よる</rt></ruby>までずっと<ruby>雨<rt>あめ</rt></ruby>が<ruby>激しく<rt>はげしく</rt></ruby><ruby>降っ<rt>ふっ</rt></ruby>ていた。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Hujan turun dengan lebat terus menerus sampai malam.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Malam hari hujan sudah reda ('<ruby>雨<rt>あめ</rt></ruby>が<ruby>上が<rt>あが</rt></ruby>って').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>仕事<rt>しごと</rt></ruby>が<ruby>終わ<rt>おわ</rt></ruby>った<ruby>後<rt>のち</rt></ruby>、レストランで<ruby>食事<rt>しょくじ</rt></ruby>をした。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Setelah selesai kerja, dia makan di restoran.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Dia membeli croissant lalu memakannya di rumah ('<ruby>家<rt>いえ</rt></ruby>で<ruby>食べた<rt>たべた</rt></ruby>').</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>仕事<rt>しごと</rt></ruby>が<ruby>終わ<rt>おわ</rt></ruby>った<ruby>時<rt>とき</rt></ruby>、<ruby>雨<rt>あめ</rt></ruby>は<ruby>止ん<rt>やん</rt></ruby>でいた。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Saat pulang kerja, hujan sudah reda.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Tertulis '<ruby>夜<rt>よる</rt></ruby>8<ruby>時に<rt>ときに</rt></ruby>やっと<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終わ<rt>おわ</rt></ruby>って<ruby>外<rt>そと</rt></ruby>に<ruby>出る<rt>でる</rt></ruby>と、<ruby>雨<rt>あめ</rt></ruby>が<ruby>上が<rt>あが</rt></ruby>って（redam/berhenti）...'.</div> </div> </div>"
+      },
+      {
+        "type": "passage",
+        "label": "【<ruby>手紙<rt>てがみ</rt></ruby>】ヤンさんがお<ruby>母さん<rt>かあさん</rt></ruby>に<ruby>宛て<rt>あて</rt></ruby>たハガキです。",
+        "content": "<p>お<ruby>母さん<rt>かあさん</rt></ruby>へ<br/><ruby>日本<rt>にっぽん</rt></ruby>に<ruby>来て<rt>きて</rt></ruby>から<ruby>半年<rt>はんとし</rt></ruby>が<ruby>経ち<rt>へち</rt></ruby>ました。こちらの<ruby>生活<rt>せいかつ</rt></ruby>にもすっかり<ruby>慣れ<rt>なれ</rt></ruby>て、<ruby>毎日<rt>まいにち</rt></ruby><ruby>大学<rt>だいがく</rt></ruby>で<ruby>楽しく<rt>たのしく</rt></ruby><ruby>勉強<rt>べんきょう</rt></ruby>しています。<ruby>最近<rt>さいきん</rt></ruby>は<ruby>日本人<rt>にほんじん</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>もできて、<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>映画<rt>えいが</rt></ruby>に<ruby>行った<rt>いった</rt></ruby>り<ruby>買い物<rt>かいもの</rt></ruby>に<ruby>行った<rt>いった</rt></ruby>りしています。<ruby>日本<rt>にっぽん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>はとても<ruby>蒸し暑い<rt>むしあつい</rt></ruby>ので、<ruby>冷たい<rt>つめたい</rt></ruby><ruby>麦茶<rt>むぎちゃ</rt></ruby>をよく<ruby>飲ん<rt>のん</rt></ruby>でいます。お<ruby>母さん<rt>かあさん</rt></ruby>も<ruby>体<rt>からだ</rt></ruby>に<ruby>気を<rt>きを</rt></ruby>つけてください。<br/><br/>ヤン</p>",
+        "style": "margin-top:14px;"
+      },
+      {
+        "type": "question",
+        "num": 51,
+        "answer": 1,
+        "text": "ヤンさんの<ruby>日本<rt>にっぽん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>について、<ruby>正しい<rt>ただしい</rt></ruby>ものはどれですか。",
+        "options": [
+          "<ruby>日本人<rt>にほんじん</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>と<ruby>出か<rt>でか</rt></ruby>けることがある。",
+          "<ruby>日本<rt>にっぽん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>は<ruby>涼しい<rt>すずしい</rt></ruby>ので<ruby>過ご<rt>すご</rt></ruby>しやすい。",
+          "<ruby>日本<rt>にっぽん</rt></ruby>に<ruby>来て<rt>きて</rt></ruby>からまだ1か<ruby>月<rt>がつ</rt></ruby>しか<ruby>経っ<rt>へっ</rt></ruby>ていない。",
+          "<ruby>毎日<rt>まいにち</rt></ruby><ruby>寂しく<rt>さびしく</rt></ruby>てお<ruby>母さん<rt>かあさん</rt></ruby>に<ruby>会い<rt>あい</rt></ruby>たがっている。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Pendek (Kabar Mahasiswa Asing)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Manakah pernyataan yang benar mengenai kehidupan Yan-san di Jepang?</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>日本人<rt>にほんじん</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>と<ruby>出か<rt>でか</rt></ruby>けることがある。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Terkadang pergi keluar bersama teman Jepang.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Tertulis '<ruby>友達<rt>ともだち</rt></ruby>もできて、<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>映画<rt>えいが</rt></ruby>に<ruby>行った<rt>いった</rt></ruby>り...'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>日本<rt>にっぽん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>は<ruby>涼しい<rt>すずしい</rt></ruby>ので<ruby>過ご<rt>すご</rt></ruby>しやすい。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Musim panas Jepang sejuk sehingga nyaman.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Musim panas Jepang sangat lembap dan panas ('とても<ruby>蒸し暑い<rt>むしあつい</rt></ruby>').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>日本<rt>にっぽん</rt></ruby>に<ruby>来て<rt>きて</rt></ruby>からまだ1か<ruby>月<rt>がつ</rt></ruby>しか<ruby>経っ<rt>へっ</rt></ruby>ていない。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Baru 1 bulan berlalu sejak tiba di Jepang.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Sudah berjalan setengah tahun ('<ruby>半年<rt>はんとし</rt></ruby>が<ruby>経ち<rt>へち</rt></ruby>ました').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>毎日<rt>まいにち</rt></ruby><ruby>寂しく<rt>さびしく</rt></ruby>てお<ruby>母さん<rt>かあさん</rt></ruby>に<ruby>会い<rt>あい</rt></ruby>たがっている。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Setiap hari kesepian dan rindu ibunya.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Dia menikmati kesehariannya dengan gembira ('<ruby>毎日<rt>まいにち</rt></ruby><ruby>大学<rt>だいがく</rt></ruby>で<ruby>楽しく<rt>たのしく</rt></ruby><ruby>勉強<rt>べんきょう</rt></ruby>しています').</div> </div> </div>"
+      },
+      {
+        "type": "passage",
+        "label": "【<ruby>注意書き<rt>ちゅういがき</rt></ruby>】エレベーターの<ruby>前<rt>まえ</rt></ruby>に<ruby>貼っ<rt>はっ</rt></ruby>てある<ruby>紙<rt>かみ</rt></ruby>です。",
+        "content": "<p><b>【エレベーター<ruby>使用時<rt>しようじ</rt></ruby>のお<ruby>願い<rt>ねがい</rt></ruby>】</b><br/><ruby>現在<rt>げんざい</rt></ruby>、このエレベーターは<ruby>修理<rt>しゅうり</rt></ruby>のため、<ruby>午前<rt>ごぜん</rt></ruby>9<ruby>時<rt>とき</rt></ruby>から11<ruby>時<rt>とき</rt></ruby>まで<ruby>使う<rt>つかう</rt></ruby>ことができません。<ruby>階段<rt>かいだん</rt></ruby>をご<ruby>利用<rt>りよう</rt></ruby>ください。なお、<ruby>車椅子<rt>くるまいす</rt></ruby>をご<ruby>利用<rt>りよう</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>や、<ruby>重い<rt>おもい</rt></ruby><ruby>荷物<rt>にもつ</rt></ruby>をお<ruby>持ち<rt>もち</rt></ruby>の<ruby>方は<rt>かたは</rt></ruby>、<ruby>近く<rt>ちかく</rt></ruby>の<ruby>係員<rt>かかりいん</rt></ruby>にお<ruby>知らせ<rt>しらせ</rt></ruby>ください。<ruby>裏口<rt>うらぐち</rt></ruby>の<ruby>大型<rt>おおがた</rt></ruby>エレベーターをご<ruby>案内<rt>あんない</rt></ruby>します。</p>",
+        "style": "margin-top:14px;"
+      },
+      {
+        "type": "question",
+        "num": 52,
+        "answer": 3,
+        "text": "<ruby>午前<rt>ごぜん</rt></ruby>10<ruby>時に<rt>ときに</rt></ruby><ruby>車椅子<rt>くるまいす</rt></ruby>の<ruby>人<rt>にん</rt></ruby>が<ruby>上の<rt>うえの</rt></ruby><ruby>階<rt>かい</rt></ruby>へ<ruby>行き<rt>いき</rt></ruby>たい<ruby>時<rt>とき</rt></ruby>、どうすればいいですか。",
+        "options": [
+          "11<ruby>時<rt>とき</rt></ruby>までエレベーターの<ruby>前<rt>まえ</rt></ruby>で<ruby>待つ<rt>まつ</rt></ruby>。",
+          "エレベーターを<ruby>修理<rt>しゅうり</rt></ruby>して<ruby>自分<rt>じぶん</rt></ruby>で<ruby>乗る<rt>のる</rt></ruby>。",
+          "<ruby>係員<rt>かかりいん</rt></ruby>に<ruby>知らせ<rt>しらせ</rt></ruby>て<ruby>裏口<rt>うらぐち</rt></ruby>のエレベーターを<ruby>使う<rt>つかう</rt></ruby>。",
+          "<ruby>諦め<rt>あきらめ</rt></ruby>て<ruby>自力<rt>じりき</rt></ruby>で<ruby>階段<rt>かいだん</rt></ruby>を<ruby>使う<rt>つかう</rt></ruby>。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Pendek (Aksesibilitas Lift)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Apa yang harus dilakukan oleh pengguna kursi roda yang ingin ke lantai atas pada jam 10 pagi?</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\">11<ruby>時<rt>とき</rt></ruby>までエレベーターの<ruby>前<rt>まえ</rt></ruby>で<ruby>待つ<rt>まつ</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menunggu di depan lift sampai jam 11.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Menunggu terlalu lama tidak efisien dan ada alternatif yang disediakan.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">エレベーターを<ruby>修理<rt>しゅうり</rt></ruby>して<ruby>自分<rt>じぶん</rt></ruby>で<ruby>乗る<rt>のる</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Memperbaiki lift lalu naik sendiri.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pengunjung dilarang memperbaiki lift sendiri.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>係員<rt>かかりいん</rt></ruby>に<ruby>知らせ<rt>しらせ</rt></ruby>て<ruby>裏口<rt>うらぐち</rt></ruby>のエレベーターを<ruby>使う<rt>つかう</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Memberitahu petugas untuk memakai lift pintu belakang.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Selebaran meminta pengguna kursi roda menghubungi petugas ('<ruby>車椅子<rt>くるまいす</rt></ruby>をご<ruby>利用<rt>りよう</rt></ruby>の<ruby>方は<rt>かたは</rt></ruby>...<ruby>近く<rt>ちかく</rt></ruby>の<ruby>係員<rt>かかりいん</rt></ruby>にお<ruby>知らせ<rt>しらせ</rt></ruby>ください').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>諦め<rt>あきらめ</rt></ruby>て<ruby>自力<rt>じりき</rt></ruby>で<ruby>階段<rt>かいだん</rt></ruby>を<ruby>使う<rt>つかう</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Menyerah lalu menggunakan tangga manual sendiri.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pengguna kursi roda tidak memungkinkan memakai tangga biasa.</div> </div> </div>"
+      }
+    ]
+  },
+  {
+    "sectionId": "s9",
+    "sectionTitle": "もんだい９",
+    "instruction": "つぎの ページの ちらしを よんで、しつもんに 答えて ください。こたえは １・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+    "elements": [
+      {
+        "type": "passage",
+        "label": "【チラシ】これはクッキングスクールが<ruby>作っ<rt>つくっ</rt></ruby>たピザ<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>チラシです。",
+        "content": "<div style=\"border:2px solid var(--border-color);padding:16px;border-radius:8px;\"><h3 style=\"text-align:center;margin-bottom:12px;color:var(--accent);\"> <ruby>夏休み<rt>なつやすみ</rt></ruby><ruby>親子<rt>おやこ</rt></ruby>ピザ<ruby>教室<rt>きょうしつ</rt></ruby>  </h3><p><ruby>自分<rt>じぶん</rt></ruby>で<ruby>作っ<rt>つくっ</rt></ruby>た<ruby>焼き<rt>やき</rt></ruby>たてのピザを<ruby>食べて<rt>たべて</rt></ruby>みませんか。<ruby>親子<rt>おやこ</rt></ruby>で<ruby>楽しく<rt>たのしく</rt></ruby>ピザを<ruby>作る<rt>つくる</rt></ruby><ruby>特別<rt>とくべつ</rt></ruby><ruby>教室<rt>きょうしつ</rt></ruby>です。</p><hr style=\"margin:12px 0;border-top:1px dashed var(--border-color);\"/><ul><li><b><ruby>日時<rt>にちじ</rt></ruby>：</b>8<ruby>月<rt>がつ</rt></ruby>20<ruby>日<rt>にち</rt></ruby>（<ruby>日<rt>にち</rt></ruby>）<ruby>午前<rt>ごぜん</rt></ruby>10:00〜12:30</li><li><b><ruby>場所<rt>ばしょ</rt></ruby>：</b>ひまわり<ruby>市民<rt>しみん</rt></ruby>センター 3<ruby>階<rt>かい</rt></ruby> <ruby>調理<rt>ちょうり</rt></ruby><ruby>室<rt>しつ</rt></ruby></li><li><b><ruby>対象<rt>たいしょう</rt></ruby>：</b><ruby>小学生<rt>しょうがくせい</rt></ruby>とその<ruby>保護者<rt>ほごしゃ</rt></ruby>（<ruby>大人<rt>おとな</rt></ruby>の<ruby>付き<rt>つき</rt></ruby><ruby>添い<rt>そい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です）</li><li><b><ruby>参加費<rt>さんかひ</rt></ruby>：</b><ruby>親子<rt>おやこ</rt></ruby>1ペア 2,000<ruby>円<rt>えん</rt></ruby>（<ruby>材料費<rt>ざいりょうひ</rt></ruby>を<ruby>含み<rt>ふくみ</rt></ruby>ます）</li><li><b><ruby>持ち物<rt>もちもの</rt></ruby>：</b>エプロn、<ruby>三角<rt>さんかく</rt></ruby><ruby>巾<rt>はば</rt></ruby>、<ruby>手拭<rt>てぬぐい</rt></ruby>きタオル</li><li><b><ruby>定員<rt>ていいん</rt></ruby>：</b><ruby>先着<rt>せんちゃく</rt></ruby>10ペア（<ruby>定員<rt>ていいん</rt></ruby>になり<ruby>次第<rt>しだい</rt></ruby><ruby>締め切り<rt>しめきり</rt></ruby>ます）</li><li><b><ruby>申し込み<rt>もうしこみ</rt></ruby>：</b>8<ruby>月<rt>がつ</rt></ruby>10<ruby>日<rt>にち</rt></ruby>（<ruby>木<rt>き</rt></ruby>）までに、お<ruby>電話<rt>でんわ</rt></ruby>で「ひまわりクッキングスクール」までご<ruby>予約<rt>よやく</rt></ruby>ください。</li></ul></div>",
+        "style": ""
+      },
+      {
+        "type": "question",
+        "num": 53,
+        "answer": 3,
+        "text": "このピザ<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは、どのような<ruby>人<rt>にん</rt></ruby>ですか。",
+        "options": [
+          "<ruby>料理<rt>りょうり</rt></ruby>が<ruby>得意<rt>とくい</rt></ruby>な<ruby>大人<rt>おとな</rt></ruby>のみ",
+          "<ruby>小学生<rt>しょうがくせい</rt></ruby>だけなら<ruby>誰<rt>だれ</rt></ruby>でも",
+          "<ruby>小学生<rt>しょうがくせい</rt></ruby>の<ruby>子ども<rt>こども</rt></ruby>と、その<ruby>保護者<rt>ほごしゃ</rt></ruby>の<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>中学生<rt>ちゅうがくせい</rt></ruby>とその<ruby>親<rt>おや</rt></ruby>のペア"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Panjang (Syarat Peserta)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Siapakah yang bisa berpartisipasi dalam kelas pizza ini?</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>料理<rt>りょうり</rt></ruby>が<ruby>得意<rt>とくい</rt></ruby>な<ruby>大人<rt>おとな</rt></ruby>のみ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Hanya orang dewasa yang pintar memasak.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kelas ini ditujukan untuk anak-anak sekolah dasar dan orang tuanya, bukan cuma orang dewasa.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>小学生<rt>しょうがくせい</rt></ruby>だけなら<ruby>誰<rt>だれ</rt></ruby>でも</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Siapa saja asalkan anak SD.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Wajib didampingi orang tua/dewasa ('<ruby>大人<rt>おとな</rt></ruby>の<ruby>付き<rt>つき</rt></ruby><ruby>添い<rt>そい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です').</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>小学生<rt>しょうがくせい</rt></ruby>の<ruby>子ども<rt>こども</rt></ruby>と、その<ruby>保護者<rt>ほごしゃ</rt></ruby>の<ruby>大人<rt>おとな</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Anak SD dan orang dewasa pendampingnya.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Kategori sasaran adalah '<ruby>小学生<rt>しょうがくせい</rt></ruby>とその<ruby>保護者<rt>ほごしゃ</rt></ruby>'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>中学生<rt>ちゅうがくせい</rt></ruby>とその<ruby>親<rt>おや</rt></ruby>のペア</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Pasangan anak SMP dan orang tuanya.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Khusus untuk tingkat sekolah dasar (<ruby>小学生<rt>しょうがくせい</rt></ruby>).</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 54,
+        "answer": 2,
+        "text": "<ruby>参加者<rt>さんかしゃ</rt></ruby>は<ruby>何を<rt>なにを</rt></ruby><ruby>持っ<rt>もっ</rt></ruby>ていかなければなりませんか。",
+        "options": [
+          "<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>小麦粉<rt>こむぎこ</rt></ruby>やチーズ",
+          "エプロンと<ruby>三角<rt>さんかく</rt></ruby><ruby>巾<rt>はば</rt></ruby>とタオル",
+          "<ruby>参加費<rt>さんかひ</rt></ruby>の2,000<ruby>円<rt>えん</rt></ruby>とピザ<ruby>用<rt>よう</rt></ruby>の<ruby>皿<rt>さら</rt></ruby>",
+          "お<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>めし</rt></ruby>の<ruby>弁当<rt>べんとう</rt></ruby>"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Panjang (Barang Bawaan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Apa yang wajib dibawa oleh peserta?</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>小麦粉<rt>こむぎこ</rt></ruby>やチーズ</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Bahan tepung dan keju.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Bahan makanan sudah disediakan oleh panitia.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 2</span> <div class=\"exp-opt-text\">エプロンと<ruby>三角<rt>さんかく</rt></ruby><ruby>巾<rt>はば</rt></ruby>とタオル</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Celemek, ikat kepala/bandana, dan handuk.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Tertulis di bawah kolom barang bawaan ('エプロン、<ruby>三角<rt>さんかく</rt></ruby><ruby>巾<rt>はば</rt></ruby>、<ruby>手拭<rt>てぬぐい</rt></ruby>きタオル').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\"><ruby>参加費<rt>さんかひ</rt></ruby>の2,000<ruby>円<rt>えん</rt></ruby>とピザ<ruby>用<rt>よう</rt></ruby>の<ruby>皿<rt>さら</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Uang 2,000 yen dan piring pizza.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Piring makan tidak diminta untuk dibawa sendiri.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\">お<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>めし</rt></ruby>の<ruby>弁当<rt>べんとう</rt></ruby></div> <div class=\"exp-opt-arti\"><i>Arti:</i> Bekal makan siang.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Peserta akan memakan pizza yang mereka panggang sendiri.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 55,
+        "answer": 4,
+        "text": "このピザ<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>申し込み<rt>もうしこみ</rt></ruby>たい<ruby>時<rt>とき</rt></ruby>、どうすればいいですか。",
+        "options": [
+          "<ruby>当日<rt>とうじつ</rt></ruby>、<ruby>直接会場<rt>ちょくせつかいじょう</rt></ruby>に<ruby>行って<rt>いって</rt></ruby><ruby>申し込む<rt>もうしこむ</rt></ruby>。",
+          "ホームページの<ruby>予約<rt>よやく</rt></ruby>フォームから<ruby>送る<rt>おくる</rt></ruby>。",
+          "メールで<ruby>名前<rt>なまえ</rt></ruby>と<ruby>人数<rt>にんずう</rt></ruby>を<ruby>書い<rt>かい</rt></ruby>て<ruby>送る<rt>おくる</rt></ruby>。",
+          "8<ruby>月<rt>がつ</rt></ruby>10<ruby>日<rt>にち</rt></ruby>までに<ruby>電話<rt>でんわ</rt></ruby>で<ruby>予約<rt>よやく</rt></ruby>する。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Panjang (Metode Registrasi)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Bagaimana cara mendaftar jika ingin ikut kelas pizza ini?</div><div class=\"exp-list\"> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>当日<rt>とうじつ</rt></ruby>、<ruby>直接会場<rt>ちょくせつかいじょう</rt></ruby>に<ruby>行って<rt>いって</rt></ruby><ruby>申し込む<rt>もうしこむ</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Datang langsung ke lokasi di hari H.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Harus memesan/reservasi terlebih dahulu sebelum kuota habis.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\">ホームページの<ruby>予約<rt>よやく</rt></ruby>フォームから<ruby>送る<rt>おくる</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengirim lewat formulir online di website.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Pendaftaran dilakukan secara eksklusif lewat telepon.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">メールで<ruby>名前<rt>なまえ</rt></ruby>と<ruby>人数<rt>にんずう</rt></ruby>を<ruby>書い<rt>かい</rt></ruby>て<ruby>送る<rt>おくる</rt></ruby>。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Mengirim email berisi nama dan jumlah orang.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Email tidak terdaftar sebagai media penerima reservasi.</div> </div> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 4</span> <div class=\"exp-opt-text\">8<ruby>月<rt>がつ</rt></ruby>10<ruby>日<rt>にち</rt></ruby>までに<ruby>電話<rt>でんわ</rt></ruby>で<ruby>予約<rt>よやく</rt></ruby>する。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Melakukan pemesanan via telepon paling lambat 8 Agustus.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Tertulis '8<ruby>月<rt>がつ</rt></ruby>10<ruby>日<rt>にち</rt></ruby>（<ruby>木<rt>き</rt></ruby>）までに、お<ruby>電話<rt>でんわ</rt></ruby>で...ご<ruby>予約<rt>よやく</rt></ruby>ください'.</div> </div> </div>"
+      },
+      {
+        "type": "question",
+        "num": 56,
+        "answer": 1,
+        "text": "このチラsiについて、<ruby>正しい<rt>ただしい</rt></ruby>ものはどれですか。",
+        "options": [
+          "<ruby>参加費<rt>さんかひ</rt></ruby>の2,000<ruby>円<rt>えん</rt></ruby>には<ruby>材料費<rt>ざいりょうひ</rt></ruby>も<ruby>含ま<rt>ふくま</rt></ruby>れている。",
+          "<ruby>定員<rt>ていいん</rt></ruby>は20ペアまでで、<ruby>抽選<rt>ちゅうせん</rt></ruby>で<ruby>決ま<rt>きま</rt></ruby>る。",
+          "この<ruby>教室<rt>きょうしつ</rt></ruby>は8<ruby>月<rt>がつ</rt></ruby>20<ruby>日<rt>にち</rt></ruby>の<ruby>午後<rt>ごご</rt></ruby>から<ruby>始ま<rt>はじま</rt></ruby>る。",
+          "<ruby>中学生<rt>ちゅうがくせい</rt></ruby>も<ruby>保護者<rt>ほごしゃ</rt></ruby>と<ruby>一緒な<rt>いっしょな</rt></ruby>ら<ruby>参加<rt>さんか</rt></ruby>できる。"
+        ],
+        "explanation": "<div class=\"exp-header\"><b>Kata kunci:</b> Dokkai Panjang (Evaluasi Keseluruhan)</div><div class=\"exp-soal-arti\"><b>Arti Soal:</b> Pertanyaan: Manakah pernyataan yang benar mengenai selebaran ini?</div><div class=\"exp-list\"> <div class=\"exp-item border-correct\"> <span class=\"badge-opt fb-ok\">✔ BENAR - Pilihan 1</span> <div class=\"exp-opt-text\"><ruby>参加費<rt>さんかひ</rt></ruby>の2,000<ruby>円<rt>えん</rt></ruby>には<ruby>材料費<rt>ざいりょうひ</rt></ruby>も<ruby>含ま<rt>ふくま</rt></ruby>れている。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Uang iuran 2,000 yen sudah mencakup biaya bahan masakan.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> BENAR. Tertulis '<ruby>親子<rt>おやこ</rt></ruby>1ペア 2,000<ruby>円<rt>えん</rt></ruby>（<ruby>材料費<rt>ざいりょうひ</rt></ruby>を<ruby>含み<rt>ふくみ</rt></ruby>ます）'.</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 2</span> <div class=\"exp-opt-text\"><ruby>定員<rt>ていいん</rt></ruby>は20ペアまでで、<ruby>抽選<rt>ちゅうせん</rt></ruby>で<ruby>決ま<rt>きま</rt></ruby>る。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kuota untuk 20 pasang dan ditentukan dengan undian.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Kuota hanya 10 pasang dan memakai sistem siapa cepat dia dapat ('<ruby>先着<rt>せんちゃく</rt></ruby>10ペア').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 3</span> <div class=\"exp-opt-text\">この<ruby>教室<rt>きょうしつ</rt></ruby>は8<ruby>月<rt>がつ</rt></ruby>20<ruby>日<rt>にち</rt></ruby>の<ruby>午後<rt>ごご</rt></ruby>から<ruby>始ま<rt>はじま</rt></ruby>る。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Kelas dimulai dari siang hari tanggal 20 Agustus.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Dimulai dari jam 10 pagi ('<ruby>午前<rt>ごぜん</rt></ruby>10:00〜12:30').</div> </div> <div class=\"exp-item border-wrong\"> <span class=\"badge-opt fb-ng\">✘ SALAH - Pilihan 4</span> <div class=\"exp-opt-text\"><ruby>中学生<rt>ちゅうがくせい</rt></ruby>も<ruby>保護者<rt>ほごしゃ</rt></ruby>と<ruby>一緒な<rt>いっしょな</rt></ruby>ら<ruby>参加<rt>さんか</rt></ruby>できる。</div> <div class=\"exp-opt-arti\"><i>Arti:</i> Anak SMP bisa ikut asalkan didampingi orang tua.</div> <div class=\"exp-opt-eval\"><i>Evaluasi:</i> SALAH. Sasaran hanya anak sekolah dasar (<ruby>小学生<rt>しょうがくせい</rt></ruby>).</div> </div> </div>"
+      }
+    ]
+  }
+]

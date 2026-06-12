@@ -1,0 +1,26 @@
+[
+  {
+    "id": "set1",
+    "name": "Latihan N4 - Set 1 (Bawaan)",
+    "file": "questions.json",
+    "desc": "Paket soal latihan JLPT N4 standar meliputi tata bahasa, kosakata, kanji, dan dokkai."
+  },
+  {
+    "id": "set2",
+    "name": "Latihan N4 - Set 2 (Simulasi AI)",
+    "file": "questions_set2.json",
+    "desc": "Soal simulasi tambahan yang dirancang menyerupai format PDF ujian JLPT N4 resmi."
+  },
+  {
+    "id": "set3",
+    "name": "Latihan N4 - Set 3 (Simulasi Baru)",
+    "file": "questions_set3.json",
+    "desc": "Paket lengkap 56 soal latihan JLPT N4 baru meliputi kanji, kosakata, tata bahasa, dan dokkai."
+  },
+  {
+    "id": "set4",
+    "name": "Latihan N4 - Set 4 (Simulasi Mandiri)",
+    "file": "questions_set4.json",
+    "desc": "Paket kuis lengkap 56 soal N4 baru yang dioptimalkan dengan Furigana dinamis."
+  }
+]
