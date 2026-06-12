@@ -1,22 +1,16 @@
 import { useState, useEffect, useRef } from 'react';
 
-const DEFAULT_TIME = 80 * 60; // 80 menit dalam detik
-
 export default function App() {
   // 1. STATE MANAGEMENT
   const [view, setView] = useState('home'); // 'home' atau 'test'
   const [questionSets, setQuestionSets] = useState([]);
   const [activeSet, setActiveSet] = useState(null);
   const [allQuestionsData, setAllQuestionsData] = useState({});
-  const [questions, setQuestions] = useState([]);
-  const [answered, setAnswered] = useState({});
-  const [submitted, setSubmitted] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(DEFAULT_TIME);
   const [loading, setLoading] = useState(true);
   const [showFurigana, setShowFurigana] = useState(localStorage.getItem('n4_show_furigana') === 'true');
 
-  const timerRef = useRef(null);
-  const resultCardRef = useRef(null);
+  // Derived state: data soal diturunkan langsung dari allQuestionsData berdasarkan activeSet.id
+  const questions = (activeSet && allQuestionsData[activeSet.id]) || [];
 
   // 2. EFFECT: MEMUAT CONFIG & SELURUH DATABASE SOAL SEKALIGUS (PRE-FETCH)
   useEffect(() => {
@@ -61,132 +55,7 @@ export default function App() {
       });
   }, []);
 
-  // 3. EFFECT: SETELAH AKTIF SET BERUBAH, PULIHKAN LOCAL STORAGE SECARA INSTAN
-  useEffect(() => {
-    if (!activeSet) return;
-
-    // Ambil data soal dari cache pre-fetch
-    const cachedData = allQuestionsData[activeSet.id];
-    if (cachedData) {
-      setQuestions(cachedData);
-    }
-
-    // Kunci local storage unik per set soal
-    const answersKey = `n4_answers_${activeSet.id}`;
-    const submittedKey = `n4_submitted_${activeSet.id}`;
-    const timeKey = `n4_time_${activeSet.id}`;
-
-    // Pulihkan Jawaban
-    const savedAnswers = localStorage.getItem(answersKey);
-    if (savedAnswers) {
-      try {
-        const parsed = JSON.parse(savedAnswers);
-        setAnswered(parsed);
-      } catch {
-        setAnswered({});
-      }
-    } else {
-      setAnswered({});
-    }
-
-    // Pulihkan Status Submit
-    const savedSubmitted = localStorage.getItem(submittedKey);
-    const isSubmitted = savedSubmitted === 'true';
-    setSubmitted(isSubmitted);
-
-    // Pulihkan Waktu
-    if (isSubmitted) {
-      setTimeLeft(0);
-    } else {
-      const savedTime = localStorage.getItem(timeKey);
-      if (savedTime !== null) {
-        const parsedTime = parseInt(savedTime);
-        setTimeLeft(isNaN(parsedTime) || parsedTime <= 0 ? DEFAULT_TIME : parsedTime);
-      } else {
-        setTimeLeft(DEFAULT_TIME);
-      }
-    }
-  }, [activeSet, allQuestionsData]);
-
-  // Keep submitAllForcefully up to date in a ref to avoid stale closures in the timer interval
-  const submitAllForcefully = () => {
-    setSubmitted(true);
-    if (activeSet) {
-      localStorage.setItem(`n4_submitted_${activeSet.id}`, 'true');
-      localStorage.setItem(`n4_score_${activeSet.id}`, `${correctCount}/${totalQuestions}`);
-    }
-  };
-  const submitAllForcefullyRef = useRef(submitAllForcefully);
-  useEffect(() => {
-    submitAllForcefullyRef.current = submitAllForcefully;
-  });
-
-  // 4. EFFECT: PENGELOLAAN TIMER COUNTDOWN (HANYA BERJALAN DI VIEW 'test')
-  useEffect(() => {
-    if (loading || submitted || view !== 'test') {
-      if (timerRef.current) clearInterval(timerRef.current);
-      return;
-    }
-
-    timerRef.current = setInterval(() => {
-      setTimeLeft(prevTime => {
-        if (prevTime <= 1) {
-          clearInterval(timerRef.current);
-          submitAllForcefullyRef.current();
-          return 0;
-        }
-        const newTime = prevTime - 1;
-        // Simpan sisa waktu ke local storage
-        if (activeSet) {
-          localStorage.setItem(`n4_time_${activeSet.id}`, newTime);
-        }
-        return newTime;
-      });
-    }, 1000);
-
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [loading, submitted, view, activeSet]);
-
-  // 5. EFFECT: SCROLL KE HASIL AKHIR SETELAH SUBMIT
-  useEffect(() => {
-    if (submitted && resultCardRef.current && view === 'test') {
-      resultCardRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-  }, [submitted, view]);
-
-  // 6. TOTAL SOAL & SKOR
-  const getTotalQuestions = () => {
-    let total = 0;
-    questions.forEach(sec => {
-      sec.elements.forEach(el => {
-        if (el.type === 'question') total++;
-      });
-    });
-    return total;
-  };
-
-  const getCorrectCount = () => {
-    let correct = 0;
-    questions.forEach(sec => {
-      sec.elements.forEach(el => {
-        if (el.type === 'question') {
-          const userAns = answered[el.num];
-          if (userAns === el.answer) {
-            correct++;
-          }
-        }
-      });
-    });
-    return correct;
-  };
-
-  const totalQuestions = getTotalQuestions();
-  const correctCount = getCorrectCount();
-  const pct = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
-
-  // 7. SINKRONISASI STATUS DAN SKOR UNTUK DASHBOARD BERANDA
+  // 3. SINKRONISASI STATUS DAN SKOR UNTUK DASHBOARD BERANDA
   const getSetStatus = (setId) => {
     const savedSubmitted = localStorage.getItem(`n4_submitted_${setId}`);
     if (savedSubmitted === 'true') {
@@ -210,83 +79,13 @@ export default function App() {
     return { type: 'not-started', text: 'Belum dicoba' };
   };
 
-  // 8. FUNGSIONALITAS INTERAKSI
+  // 4. FUNGSIONALITAS INTERAKSI
   const startTest = (set) => {
     setActiveSet(set);
     setView('test');
     setLoading(false);
   };
 
-  const scrollToSection = (id) => {
-    const el = document.querySelector(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
-
-  const handleOptionClick = (qNum, val) => {
-    if (submitted) return;
-    const newAnswers = { ...answered, [qNum]: val };
-    setAnswered(newAnswers);
-    if (activeSet) {
-      localStorage.setItem(`n4_answers_${activeSet.id}`, JSON.stringify(newAnswers));
-    }
-  };
-
-  // Kita perlu memicu ini dengan referensi ke correctCount dan totalQuestions terbaru
-  const handleSubmit = () => {
-    if (submitted) return;
-    setSubmitted(true);
-    if (activeSet) {
-      localStorage.setItem(`n4_submitted_${activeSet.id}`, 'true');
-      localStorage.setItem(`n4_score_${activeSet.id}`, `${correctCount}/${totalQuestions}`);
-    }
-  };
-
-  const resetAll = () => {
-    if (activeSet) {
-      localStorage.removeItem(`n4_answers_${activeSet.id}`);
-      localStorage.removeItem(`n4_submitted_${activeSet.id}`);
-      localStorage.removeItem(`n4_time_${activeSet.id}`);
-      localStorage.removeItem(`n4_score_${activeSet.id}`);
-    }
-    setAnswered({});
-    setSubmitted(false);
-    setTimeLeft(DEFAULT_TIME);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // 9. FORMAT JAM TIMER
-  const formatTime = (seconds) => {
-    const hrs = Math.floor(seconds / 3600);
-    const mins = Math.floor((seconds % 3600) / 60);
-    const secs = seconds % 60;
-    
-    if (hrs > 0) {
-      return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-    }
-    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-  };
-
-  // 10. EVALUASI NILAI
-  const getEvaluation = () => {
-    if (pct >= 90) return { label: '優秀！🎌', msg: 'すばらしい！N4合格レベルに達しています。本番も頑張って！' };
-    if (pct >= 75) return { label: 'よくできました！', msg: 'いい調子です。まちがえたところを復習してもっと上を目指しましょう。' };
-    if (pct >= 60) return { label: 'まあまあです', msg: '半分以上正解！間違いをチェックして、もう一度練習しましょう。' };
-    if (pct >= 40) return { label: 'もう少し！', msg: '基礎をもう一度確認しましょう。あきらめないで続けることが大切です。' };
-    return { label: 'がんばれ！', msg: '難しかったですね。間違いをよく読んで、また挑戦してください！' };
-  };
-
-  const getSectionCategory = (sectionId) => {
-    if (sectionId === 's1' || sectionId === 's2') return 'mondai-kanji';
-    if (sectionId === 's3' || sectionId === 's4' || sectionId === 's5') return 'mondai-kosakata';
-    if (sectionId === 's6' || sectionId === 's7') return 'mondai-tata-bahasa';
-    if (sectionId === 's8' || sectionId === 's9') return 'mondai-dokkai';
-    return '';
-  };
-
-  const evaluation = getEvaluation();
-  const isWarning = timeLeft <= 300; // Warning di bawah 5 menit
-
-  // 11. CARD THEMES DEFINITIONS
   const cardThemes = [
     { class: 'theme-indigo', icon: '📖' },
     { class: 'theme-teal', icon: '⚡' },
@@ -294,7 +93,7 @@ export default function App() {
     { class: 'theme-rose', icon: '🔥' }
   ];
 
-  // 12. RENDERING
+  // 5. RENDERING
   if (loading) {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: 'var(--bg-base)' }}>
@@ -363,7 +162,178 @@ export default function App() {
     );
   }
 
-  // B. RENDERING SIMULASI UJIAN (TEST INTERFACE)
+  // B. RENDERING SIMULASI UJIAN (TEST INTERFACE DENGAN KEY RESETS)
+  return (
+    <TestInterface
+      key={activeSet?.id}
+      activeSet={activeSet}
+      questions={questions}
+      showFurigana={showFurigana}
+      setShowFurigana={setShowFurigana}
+      setView={setView}
+    />
+  );
+}
+
+// 6. TEST INTERFACE COMPONENT
+function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, setView }) {
+  const DEFAULT_TIME = 80 * 60; // 80 menit dalam detik
+
+  // 1. STATE MANAGEMENT (LOCAL TO TEST INTERFACE)
+  const [answered, setAnswered] = useState(() => {
+    const saved = localStorage.getItem(`n4_answers_${activeSet.id}`);
+    if (saved) {
+      try { return JSON.parse(saved); } catch { return {}; }
+    }
+    return {};
+  });
+
+  const [submitted, setSubmitted] = useState(() => {
+    return localStorage.getItem(`n4_submitted_${activeSet.id}`) === 'true';
+  });
+
+  const [timeLeft, setTimeLeft] = useState(() => {
+    const isSubmitted = localStorage.getItem(`n4_submitted_${activeSet.id}`) === 'true';
+    if (isSubmitted) return 0;
+    const savedTime = localStorage.getItem(`n4_time_${activeSet.id}`);
+    if (savedTime !== null) {
+      const parsed = parseInt(savedTime);
+      return isNaN(parsed) || parsed <= 0 ? DEFAULT_TIME : parsed;
+    }
+    return DEFAULT_TIME;
+  });
+
+  const timerRef = useRef(null);
+  const resultCardRef = useRef(null);
+
+  // 2. TOTAL SOAL & SKOR
+  const getTotalQuestions = () => {
+    let total = 0;
+    questions.forEach(sec => {
+      sec.elements.forEach(el => {
+        if (el.type === 'question') total++;
+      });
+    });
+    return total;
+  };
+
+  const getCorrectCount = () => {
+    let correct = 0;
+    questions.forEach(sec => {
+      sec.elements.forEach(el => {
+        if (el.type === 'question') {
+          const userAns = answered[el.num];
+          if (userAns === el.answer) {
+            correct++;
+          }
+        }
+      });
+    });
+    return correct;
+  };
+
+  const totalQuestions = getTotalQuestions();
+  const correctCount = getCorrectCount();
+  const pct = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+
+  // 3. TIMER COUNTDOWN
+  useEffect(() => {
+    if (submitted) {
+      if (timerRef.current) clearInterval(timerRef.current);
+      return;
+    }
+
+    timerRef.current = setInterval(() => {
+      setTimeLeft(prevTime => {
+        if (prevTime <= 1) {
+          clearInterval(timerRef.current);
+          setSubmitted(true);
+          localStorage.setItem(`n4_submitted_${activeSet.id}`, 'true');
+          localStorage.setItem(`n4_score_${activeSet.id}`, `${correctCount}/${totalQuestions}`);
+          return 0;
+        }
+        const newTime = prevTime - 1;
+        localStorage.setItem(`n4_time_${activeSet.id}`, newTime);
+        return newTime;
+      });
+    }, 1000);
+
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [submitted, activeSet.id, correctCount, totalQuestions]);
+
+  // 4. SCROLL KE HASIL AKHIR SETELAH SUBMIT
+  useEffect(() => {
+    if (submitted && resultCardRef.current) {
+      resultCardRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [submitted]);
+
+  // 5. FUNGSIONALITAS INTERAKSI
+  const handleOptionClick = (qNum, val) => {
+    if (submitted) return;
+    const newAnswers = { ...answered, [qNum]: val };
+    setAnswered(newAnswers);
+    localStorage.setItem(`n4_answers_${activeSet.id}`, JSON.stringify(newAnswers));
+  };
+
+  const handleSubmit = () => {
+    if (submitted) return;
+    setSubmitted(true);
+    localStorage.setItem(`n4_submitted_${activeSet.id}`, 'true');
+    localStorage.setItem(`n4_score_${activeSet.id}`, `${correctCount}/${totalQuestions}`);
+  };
+
+  const resetAll = () => {
+    localStorage.removeItem(`n4_answers_${activeSet.id}`);
+    localStorage.removeItem(`n4_submitted_${activeSet.id}`);
+    localStorage.removeItem(`n4_time_${activeSet.id}`);
+    localStorage.removeItem(`n4_score_${activeSet.id}`);
+    
+    setAnswered({});
+    setSubmitted(false);
+    setTimeLeft(DEFAULT_TIME);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const scrollToSection = (id) => {
+    const el = document.querySelector(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  // 6. FORMAT JAM TIMER
+  const formatTime = (seconds) => {
+    const hrs = Math.floor(seconds / 3600);
+    const mins = Math.floor((seconds % 3600) / 60);
+    const secs = seconds % 60;
+    
+    if (hrs > 0) {
+      return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  // 7. EVALUASI NILAI
+  const getEvaluation = () => {
+    if (pct >= 90) return { label: '優秀！🎌', msg: 'すばらしい！N4合格レベルに達しています。本番も頑張って！' };
+    if (pct >= 75) return { label: 'よくできました！', msg: 'いい調子です。まちがえたところを復習してもっと上を目指しましょう。' };
+    if (pct >= 60) return { label: 'まあまあです', msg: '半分以上正解！間違いをチェックして、もう一度練習しましょう。' };
+    if (pct >= 40) return { label: 'もう少し！', msg: '基礎をもう一度確認しましょう。あきらめないで続けることが大切 es です。' };
+    return { label: 'がんばれ！', msg: '難しかったですね。間違いをよく読んで、また挑戦してください！' };
+  };
+
+  const getSectionCategory = (sectionId) => {
+    if (sectionId === 's1' || sectionId === 's2') return 'mondai-kanji';
+    if (sectionId === 's3' || sectionId === 's4' || sectionId === 's5') return 'mondai-kosakata';
+    if (sectionId === 's6' || sectionId === 's7') return 'mondai-tata-bahasa';
+    if (sectionId === 's8' || sectionId === 's9') return 'mondai-dokkai';
+    return '';
+  };
+
+  const evaluation = getEvaluation();
+  const isWarning = timeLeft <= 300; // Warning di bawah 5 menit
+
   return (
     <div className={showFurigana ? 'show-furigana' : ''}>
       {/* HEADER SIMULASI UJIAN */}
