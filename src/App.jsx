@@ -7,6 +7,7 @@ export default function App() {
   const [view, setView] = useState('home'); // 'home' atau 'test'
   const [questionSets, setQuestionSets] = useState([]);
   const [activeSet, setActiveSet] = useState(null);
+  const [allQuestionsData, setAllQuestionsData] = useState({});
   const [questions, setQuestions] = useState([]);
   const [answered, setAnswered] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -17,15 +18,39 @@ export default function App() {
   const timerRef = useRef(null);
   const resultCardRef = useRef(null);
 
-  // 2. EFFECT: MEMUAT CONFIG SET SOAL
+  // 2. EFFECT: MEMUAT CONFIG & SELURUH DATABASE SOAL SEKALIGUS (PRE-FETCH)
   useEffect(() => {
     fetch(`/config.json?t=${Date.now()}`)
       .then(res => res.json())
-      .then(data => {
-        setQuestionSets(data);
-        if (data.length > 0) {
-          setLoading(true);
-          setActiveSet(data[0]);
+      .then(configData => {
+        setQuestionSets(configData);
+        if (configData.length > 0) {
+          // Pre-fetch seluruh file soal secara paralel
+          const fetchPromises = configData.map(set => 
+            fetch(`/${set.file}?t=${Date.now()}`)
+              .then(res => res.json())
+              .then(data => ({ id: set.id, data }))
+              .catch(err => {
+                console.error(`Gagal memuat ${set.file}:`, err);
+                return { id: set.id, data: null };
+              })
+          );
+          
+          Promise.all(fetchPromises).then(results => {
+            const cache = {};
+            results.forEach(item => {
+              if (item.data) {
+                cache[item.id] = item.data;
+              }
+            });
+            setAllQuestionsData(cache);
+            
+            // Set default active set ke set pertama
+            const defaultSet = configData[0];
+            setActiveSet(defaultSet);
+            
+            setLoading(false);
+          });
         } else {
           setLoading(false);
         }
@@ -36,58 +61,52 @@ export default function App() {
       });
   }, []);
 
-  // 3. EFFECT: MEMUAT SOAL DARI SET AKTIF & PULIHKAN LOCAL STORAGE
+  // 3. EFFECT: SETELAH AKTIF SET BERUBAH, PULIHKAN LOCAL STORAGE SECARA INSTAN
   useEffect(() => {
     if (!activeSet) return;
 
-    fetch(`/${activeSet.file}?t=${Date.now()}`)
-      .then(res => res.json())
-      .then(sectionsData => {
-        setQuestions(sectionsData);
+    // Ambil data soal dari cache pre-fetch
+    const cachedData = allQuestionsData[activeSet.id];
+    if (cachedData) {
+      setQuestions(cachedData);
+    }
 
-        // Kunci local storage unik per set soal
-        const answersKey = `n4_answers_${activeSet.id}`;
-        const submittedKey = `n4_submitted_${activeSet.id}`;
-        const timeKey = `n4_time_${activeSet.id}`;
+    // Kunci local storage unik per set soal
+    const answersKey = `n4_answers_${activeSet.id}`;
+    const submittedKey = `n4_submitted_${activeSet.id}`;
+    const timeKey = `n4_time_${activeSet.id}`;
 
-        // Pulihkan Jawaban
-        const savedAnswers = localStorage.getItem(answersKey);
-        if (savedAnswers) {
-          try {
-            const parsed = JSON.parse(savedAnswers);
-            setAnswered(parsed);
-          } catch {
-            setAnswered({});
-          }
-        } else {
-          setAnswered({});
-        }
+    // Pulihkan Jawaban
+    const savedAnswers = localStorage.getItem(answersKey);
+    if (savedAnswers) {
+      try {
+        const parsed = JSON.parse(savedAnswers);
+        setAnswered(parsed);
+      } catch {
+        setAnswered({});
+      }
+    } else {
+      setAnswered({});
+    }
 
-        // Pulihkan Status Submit
-        const savedSubmitted = localStorage.getItem(submittedKey);
-        const isSubmitted = savedSubmitted === 'true';
-        setSubmitted(isSubmitted);
+    // Pulihkan Status Submit
+    const savedSubmitted = localStorage.getItem(submittedKey);
+    const isSubmitted = savedSubmitted === 'true';
+    setSubmitted(isSubmitted);
 
-        // Pulihkan Waktu
-        if (isSubmitted) {
-          setTimeLeft(0);
-        } else {
-          const savedTime = localStorage.getItem(timeKey);
-          if (savedTime !== null) {
-            const parsedTime = parseInt(savedTime);
-            setTimeLeft(isNaN(parsedTime) || parsedTime <= 0 ? DEFAULT_TIME : parsedTime);
-          } else {
-            setTimeLeft(DEFAULT_TIME);
-          }
-        }
-
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error(`Gagal memuat file soal ${activeSet.file}:`, err);
-        setLoading(false);
-      });
-  }, [activeSet]);
+    // Pulihkan Waktu
+    if (isSubmitted) {
+      setTimeLeft(0);
+    } else {
+      const savedTime = localStorage.getItem(timeKey);
+      if (savedTime !== null) {
+        const parsedTime = parseInt(savedTime);
+        setTimeLeft(isNaN(parsedTime) || parsedTime <= 0 ? DEFAULT_TIME : parsedTime);
+      } else {
+        setTimeLeft(DEFAULT_TIME);
+      }
+    }
+  }, [activeSet, allQuestionsData]);
 
   // Keep submitAllForcefully up to date in a ref to avoid stale closures in the timer interval
   const submitAllForcefully = () => {
@@ -193,13 +212,9 @@ export default function App() {
 
   // 8. FUNGSIONALITAS INTERAKSI
   const startTest = (set) => {
+    setActiveSet(set);
     setView('test');
-    if (activeSet && activeSet.id === set.id) {
-      setLoading(false);
-    } else {
-      setLoading(true);
-      setActiveSet(set);
-    }
+    setLoading(false);
   };
 
   const scrollToSection = (id) => {
