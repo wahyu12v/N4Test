@@ -193,9 +193,13 @@ export default function App() {
 
   // 8. FUNGSIONALITAS INTERAKSI
   const startTest = (set) => {
-    setLoading(true);
-    setActiveSet(set);
     setView('test');
+    if (activeSet && activeSet.id === set.id) {
+      setLoading(false);
+    } else {
+      setLoading(true);
+      setActiveSet(set);
+    }
   };
 
   const scrollToSection = (id) => {
