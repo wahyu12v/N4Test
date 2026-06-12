@@ -170,25 +170,37 @@ body {
 
 /* BUTTONS */
 .back-btn {
-  background: transparent;
+  background: var(--bg-card);
   color: var(--text-muted);
   border: 1px solid var(--border-color);
   font-family: var(--font-sans);
-  font-size: 0.75rem;
-  font-weight: 500;
-  padding: 5px 12px;
-  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: var(--transition-fast);
-  display: flex;
+  transition: all var(--transition-fast);
+  display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
+  box-shadow: 0 1.5px 3px rgba(15, 23, 42, 0.02);
+}
+
+.back-btn .back-arrow {
+  transition: transform var(--transition-fast);
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .back-btn:hover {
   background: var(--border-light);
-  color: var(--text-main);
   border-color: var(--text-light);
+  color: var(--accent);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+}
+
+.back-btn:hover .back-arrow {
+  transform: translateX(-3px);
 }
 
 /* DASHBOARD / HOME PAGE */

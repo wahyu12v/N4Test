@@ -340,7 +340,7 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
       <header className="site-header test-header">
         <div className="header-left">
           <button className="back-btn" onClick={() => setView('home')}>
-            ← Beranda
+            <span className="back-arrow">←</span> Beranda
           </button>
           <h1>{activeSet?.name}</h1>
         </div>
