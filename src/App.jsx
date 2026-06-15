@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 
 export default function App() {
   // 1. STATE MANAGEMENT
@@ -179,6 +179,30 @@ export default function App() {
 function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, setView }) {
   const DEFAULT_TIME = 80 * 60; // 80 menit dalam detik
 
+  // Flatten questions list for pagination
+  const flatQuestions = useMemo(() => {
+    const flat = [];
+    questions.forEach(sec => {
+      let activePassage = null;
+      sec.elements.forEach(el => {
+        if (el.type === 'passage') {
+          activePassage = el;
+        } else if (el.type === 'question') {
+          flat.push({
+            ...el,
+            sectionId: sec.sectionId,
+            sectionTitle: sec.sectionTitle,
+            instruction: sec.instruction,
+            passage: activePassage
+          });
+        }
+      });
+    });
+    return flat;
+  }, [questions]);
+
+  const totalQuestions = flatQuestions.length;
+
   // 1. STATE MANAGEMENT (LOCAL TO TEST INTERFACE)
   const [answered, setAnswered] = useState(() => {
     const saved = localStorage.getItem(`n4_answers_${activeSet.id}`);
@@ -203,36 +227,28 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
     return DEFAULT_TIME;
   });
 
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [activeTab, setActiveTab] = useState(() => {
+    const isSubmitted = localStorage.getItem(`n4_submitted_${activeSet.id}`) === 'true';
+    return isSubmitted ? 'results' : 'questions';
+  });
+  const [showNavigator, setShowNavigator] = useState(false);
+
   const timerRef = useRef(null);
   const resultCardRef = useRef(null);
 
-  // 2. TOTAL SOAL & SKOR
-  const getTotalQuestions = () => {
-    let total = 0;
-    questions.forEach(sec => {
-      sec.elements.forEach(el => {
-        if (el.type === 'question') total++;
-      });
-    });
-    return total;
-  };
-
+  // 2. SKOR
   const getCorrectCount = () => {
     let correct = 0;
-    questions.forEach(sec => {
-      sec.elements.forEach(el => {
-        if (el.type === 'question') {
-          const userAns = answered[el.num];
-          if (userAns === el.answer) {
-            correct++;
-          }
-        }
-      });
+    flatQuestions.forEach(q => {
+      const userAns = answered[q.num];
+      if (userAns === q.answer) {
+        correct++;
+      }
     });
     return correct;
   };
 
-  const totalQuestions = getTotalQuestions();
   const correctCount = getCorrectCount();
   const pct = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
 
@@ -248,6 +264,7 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
         if (prevTime <= 1) {
           clearInterval(timerRef.current);
           setSubmitted(true);
+          setActiveTab('results');
           localStorage.setItem(`n4_submitted_${activeSet.id}`, 'true');
           localStorage.setItem(`n4_score_${activeSet.id}`, `${correctCount}/${totalQuestions}`);
           return 0;
@@ -263,12 +280,14 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
     };
   }, [submitted, activeSet.id, correctCount, totalQuestions]);
 
-  // 4. SCROLL KE HASIL AKHIR SETELAH SUBMIT
+  // 4. SCROLL KE HASIL AKHIR SETELAH SUBMIT ATAU PINDAH TAB
   useEffect(() => {
-    if (submitted && resultCardRef.current) {
+    if (activeTab === 'results' && resultCardRef.current) {
       resultCardRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  }, [submitted]);
+  }, [activeTab, currentQuestionIndex]);
 
   // 5. FUNGSIONALITAS INTERAKSI
   const handleOptionClick = (qNum, val) => {
@@ -276,11 +295,19 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
     const newAnswers = { ...answered, [qNum]: val };
     setAnswered(newAnswers);
     localStorage.setItem(`n4_answers_${activeSet.id}`, JSON.stringify(newAnswers));
+
+    // Auto next after 350ms if not on the last question
+    if (currentQuestionIndex < totalQuestions - 1) {
+      setTimeout(() => {
+        setCurrentQuestionIndex(prev => prev + 1);
+      }, 350);
+    }
   };
 
   const handleSubmit = () => {
     if (submitted) return;
     setSubmitted(true);
+    setActiveTab('results');
     localStorage.setItem(`n4_submitted_${activeSet.id}`, 'true');
     localStorage.setItem(`n4_score_${activeSet.id}`, `${correctCount}/${totalQuestions}`);
   };
@@ -294,12 +321,16 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
     setAnswered({});
     setSubmitted(false);
     setTimeLeft(DEFAULT_TIME);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setCurrentQuestionIndex(0);
+    setActiveTab('questions');
   };
 
-  const scrollToSection = (id) => {
-    const el = document.querySelector(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const jumpToSection = (sectionId) => {
+    const firstQIdx = flatQuestions.findIndex(q => q.sectionId === sectionId);
+    if (firstQIdx !== -1) {
+      setActiveTab('questions');
+      setCurrentQuestionIndex(firstQIdx);
+    }
   };
 
   // 6. FORMAT JAM TIMER
@@ -319,7 +350,7 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
     if (pct >= 90) return { label: '優秀！🎌', msg: 'すばらしい！N4合格レベルに達しています。本番も頑張って！' };
     if (pct >= 75) return { label: 'よくできました！', msg: 'いい調子です。まちがえたところを復習してもっと上を目指しましょう。' };
     if (pct >= 60) return { label: 'まあまあです', msg: '半分以上正解！間違いをチェックして、もう一度練習しましょう。' };
-    if (pct >= 40) return { label: 'もう少し！', msg: '基礎をもう一度確認しましょう。あきらめないで続けることが大切 es です。' };
+    if (pct >= 40) return { label: 'もう少し！', msg: '基礎をもう一度確認しましょう。あきらめないで続けることが大切です。' };
     return { label: 'がんばれ！', msg: '難しかったですね。間違いをよく読んで、また挑戦してください！' };
   };
 
@@ -334,8 +365,10 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
   const evaluation = getEvaluation();
   const isWarning = timeLeft <= 300; // Warning di bawah 5 menit
 
+  const currentQ = flatQuestions[currentQuestionIndex];
+
   return (
-    <div className={showFurigana ? 'show-furigana' : ''}>
+    <div className={`test-app-container ${showFurigana ? 'show-furigana' : ''}`}>
       {/* HEADER SIMULASI UJIAN */}
       <header className="site-header test-header">
         <div className="header-left">
@@ -363,116 +396,25 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
           </span>
           <span className="score-pill" id="live-score">
             {submitted 
-              ? `${correctCount} / ${totalQuestions} correct` 
-              : `${Object.keys(answered).length} / ${totalQuestions} answered`}
+              ? `${correctCount} / ${totalQuestions} benar` 
+              : `${Object.keys(answered).length} / ${totalQuestions} dijawab`}
           </span>
           <span className="badge">N4</span>
         </div>
       </header>
 
-      {/* DAFTAR ISI (TOC) */}
-      <div className="toc">
-        <h2>▸ セクション一覧</h2>
-        <div className="toc-grid">
-          {questions.map(sec => (
-            <div key={sec.sectionId} className={`toc-item ${getSectionCategory(sec.sectionId)}`} onClick={() => scrollToSection(`#${sec.sectionId}`)}>
-              <span className="toc-label">{sec.sectionTitle}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* KONTEN SOAL */}
-      <div className="main-wrap">
-        <div id="questions-container">
-          {questions.map(sec => (
-            <div key={sec.sectionId}>
-              <div className="section-title" id={sec.sectionId}>{sec.sectionTitle}</div>
-              {sec.instruction && (
-                <div className="section-instruction">{sec.instruction}</div>
-              )}
-              {sec.elements.map((el, elIdx) => {
-                if (el.type === 'passage') {
-                  return (
-                    <div key={`pass-${elIdx}`} className="passage" style={el.style ? { marginTop: '14px' } : {}}>
-                      <div className="pass-label">{el.label}</div>
-                      <div dangerouslySetInnerHTML={{ __html: el.content }} />
-                    </div>
-                  );
-                }
-
-                if (el.type === 'question') {
-                  const optNums = ['１', '２', '３', '４'];
-                  const userAns = answered[el.num];
-                  const rightAns = el.answer;
-
-                  return (
-                    <div key={`q-${el.num}`} className={`q-card ${getSectionCategory(sec.sectionId)}`} data-answer={rightAns}>
-                      <div className="q-header">
-                        <span className="q-num">{el.num}</span>
-                        <span className="q-text" dangerouslySetInnerHTML={{ __html: el.text }} />
-                      </div>
-                      <div className="options">
-                        {el.options.map((opt, optIdx) => {
-                          const val = optIdx + 1;
-                          let btnClass = 'opt-btn';
-                          
-                          if (submitted) {
-                            if (val === rightAns) {
-                              btnClass += ' correct';
-                            } else if (userAns === val && userAns !== rightAns) {
-                              btnClass += ' wrong';
-                            }
-                          } else if (userAns === val) {
-                            btnClass += ' selected';
-                          }
-
-                          return (
-                            <button
-                              key={`opt-${el.num}-${val}`}
-                              className={btnClass}
-                              disabled={submitted}
-                              onClick={() => handleOptionClick(el.num, val)}
-                            >
-                              <span className="opt-num">{optNums[optIdx]}</span>
-                              <span dangerouslySetInnerHTML={{ __html: opt }} />
-                            </button>
-                          );
-                        })}
-                      </div>
-
-                      {/* Umpan balik setelah disubmit */}
-                      <div className={`q-feedback ${submitted ? 'show' : ''}`}>
-                        {userAns === rightAns ? (
-                          <span className="fb-ok">✔ せいかい！</span>
-                        ) : (
-                          <span className="fb-ng">
-                            {userAns 
-                              ? `✘ まちがい。せいかいは ${rightAns} です。` 
-                              : `✘ みかいとう。せいかいは ${rightAns} です。`}
-                          </span>
-                        )}
-                        <div className="fb-exp" dangerouslySetInnerHTML={{ __html: el.explanation }} />
-                      </div>
-                    </div>
-                  );
-                }
-
-                return null;
-              })}
-            </div>
-          ))}
+      {/* MAIN CONTENT WRAPPER */}
+      <div className="main-wrap centered-quiz-wrap">
+        {/* SLIM PROGRESS BAR (PERSISTENT AT TOP OF WORKSPACE) */}
+        <div className="progress-container">
+          <div 
+            className="progress-bar-fill" 
+            style={{ width: `${totalQuestions > 0 ? (Object.keys(answered).length / totalQuestions) * 100 : 0}%` }}
+          />
         </div>
 
-        {/* SUBMIT BUTTON ROW */}
-        <div className="submit-row">
-          <button className="btn-submit" id="btn-submit" disabled={submitted} onClick={handleSubmit}>
-            答え合わせ -&gt;
-          </button>
-        </div>
-
-        {/* KARTU EVALUASI SKOR HASIL AKHIR */}
-        {submitted && (
+        {activeTab === 'results' ? (
+          /* KARTU EVALUASI SKOR HASIL AKHIR */
           <div className="result-card show" id="result-card" ref={resultCardRef}>
             <div className="result-score" id="result-score">
               {correctCount}<span> / {totalQuestions}</span>
@@ -482,10 +424,212 @@ function TestInterface({ activeSet, questions, showFurigana, setShowFurigana, se
             <div className="pbar-wrap">
               <div className="pbar-fill" id="result-bar" style={{ width: `${pct}%` }}></div>
             </div>
-            <button className="btn-reset" onClick={resetAll}>もう一度 ↺</button>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', alignItems: 'center' }}>
+              <button 
+                className="btn-start" 
+                style={{ maxWidth: '280px' }} 
+                onClick={() => {
+                  setActiveTab('questions');
+                  setCurrentQuestionIndex(0);
+                }}
+              >
+                Tinjau Pembahasan Soal →
+              </button>
+              <button className="btn-reset" onClick={resetAll}>Mulai Ulang Ujian ↺</button>
+            </div>
+          </div>
+        ) : (
+          /* SOAL VIEW */
+          <div id="questions-container">
+            {currentQ ? (
+              <div>
+                {/* SECTION HEADER */}
+                <div className="question-section-header">
+                  <div className="section-title">{currentQ.sectionTitle}</div>
+                  {currentQ.instruction && (
+                    <div className="section-instruction">{currentQ.instruction}</div>
+                  )}
+                </div>
+
+                {/* PASSAGE (IF ANY) */}
+                {currentQ.passage && (
+                  <div className="passage">
+                    <div className="pass-label">{currentQ.passage.label}</div>
+                    <div dangerouslySetInnerHTML={{ __html: currentQ.passage.content }} />
+                  </div>
+                )}
+
+                {/* QUESTION CARD */}
+                {renderQuestionCard(currentQ)}
+
+                {/* NAVIGATION CONTROLS */}
+                <div className="nav-row">
+                  <button 
+                    className="nav-btn prev" 
+                    disabled={currentQuestionIndex === 0}
+                    onClick={() => setCurrentQuestionIndex(prev => prev - 1)}
+                  >
+                    ← Sebelumnya
+                  </button>
+                  <span className="nav-indicator">
+                    Soal {currentQuestionIndex + 1} dari {totalQuestions}
+                  </span>
+                  <button 
+                    className="nav-btn next" 
+                    disabled={currentQuestionIndex === totalQuestions - 1}
+                    onClick={() => setCurrentQuestionIndex(prev => prev + 1)}
+                  >
+                    Berikutnya →
+                  </button>
+                </div>
+
+                {/* COLLAPSIBLE QUESTION NAVIGATOR ACCORDION */}
+                <div className="navigator-section">
+                  <button 
+                    className={`btn-toggle-navigator ${showNavigator ? 'expanded' : ''}`}
+                    onClick={() => setShowNavigator(!showNavigator)}
+                  >
+                    <span>📑 Navigasi Soal & Daftar Isi ({Object.keys(answered).length}/{totalQuestions})</span>
+                    <span className="toggle-arrow">{showNavigator ? '▲' : '▼'}</span>
+                  </button>
+
+                  <div className={`navigator-panel ${showNavigator ? 'show' : ''}`}>
+                    {/* SECTIONS LIST (TOC) INSIDE NAVIGATOR */}
+                    <div className="toc-sub-section">
+                      <h4>Daftar Bagian (Mondai):</h4>
+                      <div className="toc-grid-minimal">
+                        {questions.map(sec => (
+                          <button 
+                            key={sec.sectionId} 
+                            className={`toc-item-minimal ${getSectionCategory(sec.sectionId)}`}
+                            onClick={() => jumpToSection(sec.sectionId)}
+                          >
+                            {sec.sectionTitle}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* QUESTION GRID INSIDE NAVIGATOR */}
+                    <div className="grid-sub-section">
+                      <div className="grid-sub-header">
+                        <h4>Pilih Nomor Soal:</h4>
+                        {submitted && (
+                          <button 
+                            className="results-toggle-btn"
+                            onClick={() => setActiveTab('results')}
+                          >
+                            📊 Ringkasan Hasil
+                          </button>
+                        )}
+                      </div>
+                      <div className="pagination-grid-minimal">
+                        {flatQuestions.map((q, idx) => {
+                          const isCurrent = activeTab === 'questions' && currentQuestionIndex === idx;
+                          const isAnswered = answered[q.num] !== undefined;
+                          const isCorrect = submitted && answered[q.num] === q.answer;
+                          const isWrong = submitted && answered[q.num] !== undefined && answered[q.num] !== q.answer;
+
+                          let btnClass = 'pag-item-minimal';
+                          if (isCurrent) btnClass += ' current';
+                          if (isAnswered) btnClass += ' answered';
+                          if (submitted) {
+                            if (isCorrect) btnClass += ' correct';
+                            else if (isWrong) btnClass += ' wrong';
+                            else btnClass += ' unanswered';
+                          }
+
+                          return (
+                            <button
+                              key={`pag-${q.num}`}
+                              className={btnClass}
+                              onClick={() => {
+                                setActiveTab('questions');
+                                setCurrentQuestionIndex(idx);
+                              }}
+                            >
+                              {q.num}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* SUBMIT BUTTON ROW */}
+                {!submitted && (
+                  <div className="submit-row">
+                    <button className="btn-submit" id="btn-submit" onClick={handleSubmit}>
+                      Selesai & Periksa Jawaban ✓
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div style={{ textAlign: 'center', padding: '40px' }}>Tidak ada soal tersedia.</div>
+            )}
           </div>
         )}
       </div>
     </div>
   );
+
+  // Helper render function for question card
+  function renderQuestionCard(q) {
+    const optNums = ['１', '２', '３', '４'];
+    const userAns = answered[q.num];
+    const rightAns = q.answer;
+
+    return (
+      <div className={`q-card ${getSectionCategory(q.sectionId)}`} data-answer={rightAns}>
+        <div className="q-header">
+          <span className="q-num">{q.num}</span>
+          <span className="q-text" dangerouslySetInnerHTML={{ __html: q.text }} />
+        </div>
+        <div className="options">
+          {q.options.map((opt, optIdx) => {
+            const val = optIdx + 1;
+            let btnClass = 'opt-btn';
+            
+            if (submitted) {
+              if (val === rightAns) {
+                btnClass += ' correct';
+              } else if (userAns === val && userAns !== rightAns) {
+                btnClass += ' wrong';
+              }
+            } else if (userAns === val) {
+              btnClass += ' selected';
+            }
+
+            return (
+              <button
+                key={`opt-${q.num}-${val}`}
+                className={btnClass}
+                disabled={submitted}
+                onClick={() => handleOptionClick(q.num, val)}
+              >
+                <span className="opt-num">{optNums[optIdx]}</span>
+                <span dangerouslySetInnerHTML={{ __html: opt }} />
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Umpan balik setelah disubmit */}
+        <div className={`q-feedback ${submitted ? 'show' : ''}`}>
+          {userAns === rightAns ? (
+            <span className="fb-ok">✔ せいかい！</span>
+          ) : (
+            <span className="fb-ng">
+              {userAns 
+                ? `✘ まちがい。せいかいは ${rightAns} です。` 
+                : `✘ みかいとう。せいかいは ${rightAns} です。`}
+            </span>
+          )}
+          <div className="fb-exp" dangerouslySetInnerHTML={{ __html: q.explanation }} />
+        </div>
+      </div>
+    );
+  }
 }
